@@ -1,0 +1,35 @@
+id,title,category,description,icon,rank,score,rank_2014,score_2014,rank_2013,score_2013
+statistics,National Statistics,Civic Information,"<p>Key national statistics such as demographic and economic indicators (GDP, unemployment, population, etc). To satisfy this category,  the following minimum criteria must be met:</p>
+<ul>
+<li>GDP for the whole country updated at least quarterly</li>
+<li>Unemployment statistics updated at least monthly</li>
+<li>Population updated at least once a year</li>
+</ul>",None,1,63,2,67,2,68
+elections,Election Results,Civic Information,"<p>This data category requires results by constituency / district for all major national electoral contests. To satisfy this category, the following minimum criteria must be met:</p>
+<ul>
+<li>Result for all major electoral contests</li>
+<li>Number of registered votes</li>
+<li>Number of invalid votes</li>
+<li>Number of spoiled ballots</li>
+<li>All data should be reported at the level of the polling station</li>
+</ul>",None,4,48,3,60,3,66
+companies,Company Register,Civic Information,"<p>List of registered (limited liability) companies. The submissions in this data category does not need to include detailed financial data such as balance sheet etc. To satisfy this category, the following minimum criteria must be met:</p>
+<ul>
+<li>Name of company</li>
+<li>Unique identifier of the company</li>
+<li>Company address</li>
+<li>Updated at least once a month</li>
+</ul>",None,9,29,6,42,6,45
+land,Land Ownership,Civic Information,"<p>Cadaster showing land ownership data on a map and include all metadata on the land. Cadaster data submmitted in this category must include the following charateristics: </p>
+<ul>
+<li>Land boarders</li>
+<li>Land owners name</li>
+<li>Land size</li>
+<li>national level</li>
+<li>updated yearly</li>
+</ul>",None,12,18,11,0,11,0
+health,Health performance,Civic Information,"<p>Geo location of public hospitals and health facilities with opening hours and infectious diseases rate, updated at least once a year. Data submitted in this category must include the following:</p>
+<ul>
+<li>Location of public hospitals and clinics.</li>
+<li>Data on infectious diseases rates in a country. </li>
+</ul>",None,15,6,11,0,11,0

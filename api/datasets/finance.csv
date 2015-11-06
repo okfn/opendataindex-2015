@@ -1,0 +1,30 @@
+id,title,category,description,icon,rank,score,rank_2014,score_2014,rank_2013,score_2013
+budget,Government Budget,Finance,"<p>National government budget at a high level. This category is looking at budgets, or the planned government expenditure for the upcoming year, and not the actual expenditure. To satisfy this category, the following minimum criteria must be met:</p>
+<ul>
+<li>Planned budget divided by government department and sub-department</li>
+<li>Updated once a year.</li>
+<li>The budget should include descriptions regarding the different budget sections.</li>
+</ul>",None,1,63,1,67,1,69
+procurement,Procurement tenders,Finance,"<p>All tenders and awards of the national/federal government aggregated by office. Monitoring tenders can help new groups to participate in tenders and increase government compliance. Data submitted in this category must be aggregated by office, updated at least monthly &amp; satisfy the following minimum criteria:</p>
+<p>Tenders:</p>
+<ul>
+<li>tenders name</li>
+<li>tender description</li>
+<li>tender status</li>
+</ul>
+<p>Awards:</p>
+<ul>
+<li>Award title</li>
+<li>Award description</li>
+<li>value of the award</li>
+<li>suppliers name</li>
+</ul>",None,5,44,11,0,11,0
+spending,Government Spending,Finance,"<p>Records of actual (past) national government spending at a detailed transactional level; A database of contracts awarded or similar will <em>not</em> considered sufficient. This data category refers to detailed ongoing data on <em>actual</em> expenditure. Data submitted in this category should meet the following minimum criteria:</p>
+<ul>
+<li>Individual record of transactions.</li>
+<li>Date of the transactions</li>
+<li>Government office which had the transaction</li>
+<li>Name of vendor</li>
+<li>amount of the transaction</li>
+<li>Update on a monthly basis</li>
+</ul>",None,14,13,10,17,10,23

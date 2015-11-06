@@ -1,0 +1,24 @@
+id,title,category,description,icon,rank,score,rank_2014,score_2014,rank_2013,score_2013
+map,National Map,Geodata,"<p>This data category requires a high level national map. To satisfy this category, the following minimum criteria must be met:</p>
+<ul>
+<li>Scale of 1:250,000 (1 cm = 2.5km).</li>
+<li>Markings of national roads</li>
+<li>National borders</li>
+<li>Marking of streams, rivers, lakes, mountains.</li>
+<li>Updated at least once a year.</li>
+</ul>",None,6,37,5,45,5,52
+postcodes,Location datasets,Geodata,"<p>A database of postcodes/zipcodes and the corresponding spatial locations in terms of a latitude and a longitude (or similar coordinates in an openly published national coordinate system). If a postcode/zipcode system does not exist in the country, please submit a dataset of administrative borders. Data submitted in this category must satisfy the following minimum conditions</p>
+<ul>
+<li>Zipcodes</li>
+<li>Address</li>
+<li>Coordinate (latitude longitude)</li>
+<li>national level</li>
+<li><p>updated once a year</p>
+</li>
+<li><p>Administrative boundaries</p>
+</li>
+<li>Boarders poligone</li>
+<li>name of poligone (city, neighborhood)</li>
+<li>national level</li>
+<li>updated once a year</li>
+</ul>",None,11,24,9,27,8,43
