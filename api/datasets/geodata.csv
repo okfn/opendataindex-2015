@@ -6,7 +6,7 @@ map,National Map,Geodata,"<p>This data category requires a high level national m
 <li>National borders</li>
 <li>Marking of streams, rivers, lakes, mountains.</li>
 <li>Updated at least once a year.</li>
-</ul>",None,6,37,5,45,5,52
+</ul>",None,6,30,5,38,5,41
 postcodes,Location datasets,Geodata,"<p>A database of postcodes/zipcodes and the corresponding spatial locations in terms of a latitude and a longitude (or similar coordinates in an openly published national coordinate system). If a postcode/zipcode system does not exist in the country, please submit a dataset of administrative borders. Data submitted in this category must satisfy the following minimum conditions</p>
 <ul>
 <li>Zipcodes</li>
@@ -21,4 +21,4 @@ postcodes,Location datasets,Geodata,"<p>A database of postcodes/zipcodes and the
 <li>name of poligone (city, neighborhood)</li>
 <li>national level</li>
 <li>updated once a year</li>
-</ul>",None,11,24,9,27,8,43
+</ul>",None,11,19,9,23,8,33

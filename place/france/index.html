@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Open Knowledge">
-        <meta name="description" content="The state of government open data in France
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Open Knowledge">
+    <meta name="description" content="The state of government open data in France
 ">
-        <meta name="keywords" content="France, Open Government, Open Data, Government Transparency, Open Knowledge
+    <meta name="keywords" content="France, Open Government, Open Data, Government Transparency, Open Knowledge
 ">
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Open Data Index - Open Knowledge" />
-        <meta property="og:site_name" content="Open Data Index" />
-        <meta property="og:description" content="The state of government open data in France" />
-        <meta property="og:image" content="/static/images/favicon.ico" />
-        <title>France | Global Open Data Index by Open Knowledge</title>
-        <base href="/">
-        <!--[if lt IE 9]>
-        <script src="/static/vendor/html5shiv.min.js"></script>
-        <![endif]-->
-        <link rel="stylesheet" href="/static/css/site.css">
-        <link rel="icon" href="/static/images/favicon.ico">
-        <script>
-            var siteUrl = '';
-        </script>
-    </head>
-    <body class="place">
-        <header id="header">
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Open Data Index - Open Knowledge"/>
+    <meta property="og:site_name" content="Open Data Index"/>
+    <meta property="og:description"
+          content="The state of government open data in France"/>
+    <meta property="og:image" content="/static/images/favicon.ico"/>
+    <title>France | Global Open Data Index by Open Knowledge</title>
+    <base href="/">
+    <!--[if lt IE 9]>
+    <script src="/static/vendor/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="/static/css/site.css">
+    <link rel="icon" href="/static/images/favicon.ico">
+    <script>
+        var siteUrl = '';
+    </script>
+</head>
+<body class="place">
 
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
+<header id="header">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div>
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="/">
-                    <img src="/static/images/logo.png" height="44">
-                    <span>Global Open Data Index</span>
-                  </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/static/images/logo.png">
+                            <span>Global<br/>Open Data Index</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
+                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <a class="ok-ribbon" href="https://okfn.org/">
+                            <img src="/static/images/okfn.png" alt="Open Knowledge">
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -60,13 +70,14 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/stories/" title="Stories around the Open Data Index project">
-                                Stories
+                            <a href="/insights/" title="Insights">
+                                Insights
                             </a>
                         </li>
                         <li>
-                            <a href="/about/" title="Contact information for the Open Data Index">
-                                Contact
+                            <a href="/methodology/"
+                               title="The methodology behind the Open Data Index">
+                                Methodology
                             </a>
                         </li>
                         <li>
@@ -75,32 +86,29 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/press/" title="Press information for the Open Data Index">
+                            <a href="/press/"
+                               title="Press information for the Open Data Index">
                                 Press
                             </a>
                         </li>
                     </ul>
-                    <p class="navbar-subbrand navbar-text navbar-right">
-                      <a href="http://okfn.org/">
-                        <img src="http://assets.okfn.org/p/okfn/img/okfn-logo-landscape-black-s.png" alt="" height="28">
-                      </a>
-                    </p>
                 </div>
             </div>
-        </nav>
-        </header>
+        </div>
+    </nav>
+</header>
 
-        <div class="container">
-            <div class="content">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ol class="breadcrumb">
-                          <li>
-                            <a href="/">Home</a>
-                          </li>
+<div class="container">
+    <div class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
   <li><a href="/place">Places</a></li>
   <li class="active">France</li>
-                        </ol>
+                </ol>
 
 <section id="data-header">
     <div class="row">
@@ -321,8 +329,10 @@ GRIB V2              </td>
                     <br />
 <span><strong>Format:</strong> GRIB V2</span>
                     <br /><br />
-                    <p>The "Données de modèle atmosphérique global" includes the forecast of temperature, precipitation, and wind on a worldwide scale. Data are updated every 6 hour. It forecast at H+102 hours. All the parameters are available here: <a href="https://donneespubliques.meteofrance.fr/client/document/description_parametres_modeles-arpege-arome-v2_184.pdf">https://donneespubliques.meteofrance.fr/client/document/description_parametres_modeles-arpege-arome-v2_184.pdf</a> </p>
-<p>The "Modèle Arome" gives a more precise H+42 hours forecast on these parameters for mainland France. The dataset can be dowloaded her: <a href="https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=131&amp;id_rubrique=51">https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=131&amp;id_rubrique=51</a></p>
+                    <p>The "Données de modèle atmosphérique global" includes the forecast of temperature, precipitation, and wind on a worldwide scale. Data are updated every 6 hour. It forecasts at H+102 hours. All the parameters are available here: <a href="https://donneespubliques.meteofrance.fr/client/document/description_parametres_modeles-arpege-arome-v2_184.pdf">https://donneespubliques.meteofrance.fr/client/document/description_parametres_modeles-arpege-arome-v2_184.pdf</a> </p>
+<p>The "Modèle Arome" gives a more precise H+42 hours forecast on these parameters for mainland France. The dataset can be dowloaded here: <a href="https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=131&amp;id_rubrique=51">https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=131&amp;id_rubrique=51</a> </p>
+<p>Historical temperature data is collected in more than 60 meteorological weather stations, every 3 hours since 1996, and it is made available here: <a href="https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=90&amp;id_rubrique=32">https://donneespubliques.meteofrance.fr/?fond=produit&amp;id_produit=90&amp;id_rubrique=32</a></p>
+<p>Revision: just added the complementary missing information on the historical temperature data that was further added by Claire-Marie Foulquier-Gazagnes via comment.</p>
                     <br />
                 </td>
             </tr>
@@ -562,7 +572,7 @@ City of Poitier &gt; <a href="https://www.data.gouv.fr/fr/datasets/citoyennete-l
                   </ul>
               </td>
               <td>
-<a href="https://www.data.gouv.fr/fr/datasets/?sort=-created&amp;organization=534fff91a3a7292c64a77f53">https://www.data.gouv.fr/fr/da...</a>              </td>
+<a href="https://www.etalab.gouv.fr/le-ministere-de-linterieur-ouvre-les-donnees-des-resultats-electoraux-par-bureaux-de-vote-depuis-1999">https://www.etalab.gouv.fr/le-...</a>              </td>
               <td>
 TXT              </td>
               <td class="info-expander" title="Click for full details">
@@ -583,7 +593,7 @@ TXT              </td>
                 <td colspan="7">
 <span style="visibility: hidden;">Election Results</span>
                     <br />
-<span><strong>URL:</strong> <a href="https://www.data.gouv.fr/fr/datasets/?sort=-created&organization=534fff91a3a7292c64a77f53" title="https://www.data.gouv.fr/fr/datasets/?sort=-created&organization=534fff91a3a7292c64a77f53">https://www.data.gouv.fr/fr/datasets/?sort=-created&organization=534fff91a3a7292c64a77f53</a></span>
+<span><strong>URL:</strong> <a href="https://www.etalab.gouv.fr/le-ministere-de-linterieur-ouvre-les-donnees-des-resultats-electoraux-par-bureaux-de-vote-depuis-1999" title="https://www.etalab.gouv.fr/le-ministere-de-linterieur-ouvre-les-donnees-des-resultats-electoraux-par-bureaux-de-vote-depuis-1999">https://www.etalab.gouv.fr/le-ministere-de-linterieur-ouvre-les-donnees-des-resultats-electoraux-par-bureaux-de-vote-depuis-1999</a></span>
                     <br />
 <span><strong>Format:</strong> TXT</span>
                     <br /><br />
@@ -595,7 +605,8 @@ TXT              </td>
 <p>Élections régionales : données 2004, données 2010</p>
 <p>Élections départementales : données 2005</p>
 <p>Élections cantonales : données 2001, données 2004, données 2008 (available on Monday 09/28), données 2011</p>
-<p>Référendum : données 2000, données 2005</p>
+<p>Référendum : données 2000, données 2005 </p>
+<p>Revision: changed the url to point to an actual list of all corresponding elections datasets, instead of all of the Ministère de l'Intérieur's datasets which include many unrelated ones.</p>
                     <br />
                 </td>
             </tr>
@@ -693,7 +704,7 @@ TXT              </td>
                   </ul>
               </td>
               <td>
-<a href="https://www.data.gouv.fr/fr/datasets/?sort=-created&amp;q=PLF+Budget&amp;geozone=country%2Ffr&amp;organization=534fff8ea3a7292c64a77f02&amp;temporal_coverage=2014-01-01-2016-12-31">https://www.data.gouv.fr/fr/da...</a>              </td>
+<a href="https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/">https://www.data.gouv.fr/fr/da...</a>              </td>
               <td>
 CSV              </td>
               <td class="info-expander" title="Click for full details">
@@ -714,11 +725,12 @@ CSV              </td>
                 <td colspan="7">
 <span style="visibility: hidden;">Government Budget</span>
                     <br />
-<span><strong>URL:</strong> <a href="https://www.data.gouv.fr/fr/datasets/?sort=-created&q=PLF+Budget&geozone=country%2Ffr&organization=534fff8ea3a7292c64a77f02&temporal_coverage=2014-01-01-2016-12-31" title="https://www.data.gouv.fr/fr/datasets/?sort=-created&q=PLF+Budget&geozone=country%2Ffr&organization=534fff8ea3a7292c64a77f02&temporal_coverage=2014-01-01-2016-12-31">https://www.data.gouv.fr/fr/datasets/?sort=-created&q=PLF+Budget&geozone=country%2Ffr&organization=534fff8ea3a7292c64a77f02&temporal_coverage=2014-01-01-2016-12-31</a></span>
+<span><strong>URL:</strong> <a href="https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/" title="https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/">https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/</a></span>
                     <br />
 <span><strong>Format:</strong> CSV</span>
                     <br /><br />
-                    <p>Proposed revision: url reupdated, and data is actually not available in bulk as it is split among many different files hard to find and assemble.</p>
+                    <p>Revision: The originally proposed link pointed to a bunch of very different files including non budget ones, and only reflected the government's <em>intended</em> budget, before it was discussed and largely modified by the parliament (the data is from october 14th 2014,  whereas the discussion lasted until the end of december : <a href="http://www.assemblee-nationale.fr/14/dossiers/loi_finances_2015.asp">http://www.assemblee-nationale.fr/14/dossiers/loi_finances_2015.asp</a> ).</p>
+<p>It seems better to reference data published by the Cour des Comptes which corresponds to the actual final government budget, programme by programme, published as a whole : <a href="https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/">https://www.data.gouv.fr/fr/datasets/budget-de-letat-exercice-2014/</a></p>
                     <br />
                 </td>
             </tr>
@@ -728,9 +740,9 @@ CSV              </td>
 
 
 
-          <tr data-rank="21" data-score="90" data-place="fr">
+          <tr data-rank="22" data-score="90" data-place="fr">
               <td class="rank">
-                  21
+                  22
               </td>
               <td>
                   <a href="/place/france/statistics/" title="National Statistics in France">National Statistics</a>
@@ -833,7 +845,7 @@ CSV, XLS              </td>
             </tr>
 
             <tr id="detail-statistics" class="details collapse">
-                <td><span style="visibility: hidden">21</span></td>
+                <td><span style="visibility: hidden">22</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">National Statistics</span>
                     <br />
@@ -954,7 +966,7 @@ XML              </td>
                   </a>
               </td>
               <td class="previous-results">
-                  <span class="rank rank-previous">#20</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
+                  <span class="rank rank-previous">#22</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
               </td>
               <td class="score" data-score="70">
                 <span>70%</span>
@@ -980,9 +992,9 @@ XML              </td>
 
 
 
-          <tr data-rank="7" data-score="65" data-place="fr">
+          <tr data-rank="9" data-score="65" data-place="fr">
               <td class="rank">
-                  7
+                  9
               </td>
               <td>
                   <a href="/place/france/water/" title="Water Quality in France">Water Quality</a>
@@ -1087,7 +1099,7 @@ n/a              </td>
             </tr>
 
             <tr id="detail-water" class="details collapse">
-                <td><span style="visibility: hidden">7</span></td>
+                <td><span style="visibility: hidden">9</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">Water Quality</span>
                     <br />
@@ -1107,9 +1119,9 @@ n/a              </td>
 
 
 
-          <tr data-rank="29" data-score="45" data-place="fr">
+          <tr data-rank="31" data-score="45" data-place="fr">
               <td class="rank">
-                  29
+                  31
               </td>
               <td>
                   <a href="/place/france/emissions/" title="Pollutant Emissions in France">Pollutant Emissions</a>
@@ -1216,20 +1228,18 @@ n/a              </td>
             </tr>
 
             <tr id="detail-emissions" class="details collapse">
-                <td><span style="visibility: hidden">29</span></td>
+                <td><span style="visibility: hidden">31</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">Pollutant Emissions</span>
                     <br />
 <span><strong>URL:</strong> <a href="http://www.airqualitynow.eu/comparing_home.php" title="http://www.airqualitynow.eu/comparing_home.php">http://www.airqualitynow.eu/comparing_home.php</a></span>
                     <br />
                     <br /><br />
-                    <p>its seem the all the data is montier but 
-not given in   main Government for For example in  Paris 
-<a href="http://www.airparif.asso.fr/en/stations/index">http://www.airparif.asso.fr/en/stations/index</a>
-seem the data also been given in if search
-<a href="https://www.data.gouv.fr/">https://www.data.gouv.fr/</a> 
-also in a web site of  European Commissio data can been fond on Many cities in  France
-<a href="http://www.airqualitynow.eu/comparing_home.php">http://www.airqualitynow.eu/comparing_home.php</a></p>
+                    <p>It seems that all the data is collected monthly but not released by the government. Although a web site of the European Commission publishes data for many cities in France <a href="http://www.airqualitynow.eu/comparing_home.php">http://www.airqualitynow.eu/comparing_home.php</a></p>
+<p>The previously registered dataset <a href="http://www.stats.environnement.developpement-durable.gouv.fr/Eider/series/export/csv.do">http://www.stats.environnement.developpement-durable.gouv.fr/Eider/series/export/csv.do</a> from Ministère de l'Environnement only provides yearly aggregates at a national level by regions of the required air pollutants emissions. The dataset stopped in 2009 and no update has been published since. Moreover, whereas the dataset requires regular measures, the data offers historical mean annual data. We think this is sufficiently old and unprecise to not be considered here.</p>
+<p>Some cities provide data on the national OpenData platform, for example in Nantes <a href="http://data.nantes.fr/donnees/?keywords=pollution&amp;sort_search=date">http://data.nantes.fr/donnees/?keywords=pollution&amp;sort_search=date</a>, Lyon <a href="http://data.grandlyon.com/search/?Q=pollution">http://data.grandlyon.com/search/?Q=pollution</a> or Saint-Malo <a href="https://www.data.gouv.fr/fr/datasets/indice-iqa-de-la-qualite-de-l-air/">https://www.data.gouv.fr/fr/datasets/indice-iqa-de-la-qualite-de-l-air/</a> but it is also updated yearly.</p>
+<p>In other cities such as Paris, this is closed data <a href="http://www.airparif.asso.fr/">http://www.airparif.asso.fr/</a>.</p>
+<p>Revision: completed the comment with more links and infos</p>
                     <br />
                 </td>
             </tr>
@@ -1239,9 +1249,9 @@ also in a web site of  European Commissio data can been fond on Many cities in  
 
 
 
-          <tr data-rank="29" data-score="35" data-place="fr">
+          <tr data-rank="30" data-score="35" data-place="fr">
               <td class="rank">
-                  29
+                  30
               </td>
               <td>
                   <a href="/place/france/postcodes/" title="Location datasets in France">Location datasets</a>
@@ -1353,7 +1363,7 @@ CSV              </td>
             </tr>
 
             <tr id="detail-postcodes" class="details collapse">
-                <td><span style="visibility: hidden">29</span></td>
+                <td><span style="visibility: hidden">30</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">Location datasets</span>
                     <br />
@@ -1504,9 +1514,9 @@ Some of the different contents can be accessed openly through some of the follow
 
 
 
-          <tr data-rank="31" data-score="35" data-place="fr">
+          <tr data-rank="32" data-score="35" data-place="fr">
               <td class="rank">
-                  31
+                  32
               </td>
               <td>
                   <a href="/place/france/companies/" title="Company Register in France">Company Register</a>
@@ -1602,7 +1612,7 @@ xml, csv              </td>
                   </a>
               </td>
               <td class="previous-results">
-                  <span class="rank rank-previous">#23</span>&nbsp;&nbsp;<span class="score score-previous" data-score="50">50%</span>
+                  <span class="rank rank-previous">#24</span>&nbsp;&nbsp;<span class="score score-previous" data-score="50">50%</span>
               </td>
               <td class="score" data-score="35">
                 <span>35%</span>
@@ -1610,7 +1620,7 @@ xml, csv              </td>
             </tr>
 
             <tr id="detail-companies" class="details collapse">
-                <td><span style="visibility: hidden">31</span></td>
+                <td><span style="visibility: hidden">32</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">Company Register</span>
                     <br />
@@ -1628,9 +1638,9 @@ xml, csv              </td>
 
 
 
-          <tr data-rank="36" data-score="20" data-place="fr">
+          <tr data-rank="37" data-score="20" data-place="fr">
               <td class="rank">
-                  36
+                  37
               </td>
               <td>
                   <a href="/place/france/land/" title="Land Ownership in France">Land Ownership</a>
@@ -1735,7 +1745,7 @@ n/a              </td>
             </tr>
 
             <tr id="detail-land" class="details collapse">
-                <td><span style="visibility: hidden">36</span></td>
+                <td><span style="visibility: hidden">37</span></td>
                 <td colspan="7">
 <span style="visibility: hidden;">Land Ownership</span>
                     <br />
@@ -1850,7 +1860,7 @@ n/a              </td>
                   </a>
               </td>
               <td class="previous-results">
-                  <span class="rank rank-previous">#15</span>&nbsp;&nbsp;<span class="score score-previous" data-score="10">10%</span>
+                  <span class="rank rank-previous">#17</span>&nbsp;&nbsp;<span class="score score-previous" data-score="10">10%</span>
               </td>
               <td class="score" data-score="10">
                 <span>10%</span>
@@ -1884,14 +1894,12 @@ n/a              </td>
           <li>Gil Zaretzer</li>
           <li>Pierre Chrzanowski</li>
           <li>Kamil Gregor</li>
-          <li>Tryggvi Björgvinsson</li>
           <li>Mor Rubinstein</li>
           <li>Zach Christensen</li>
           <li>anonymous</li>
           <li>Nisha Thompson</li>
-          <li>yar michl</li>
           <li>Rebecca Sentance</li>
-          <li>Neal Bastek</li>
+          <li>Tryggvi Björgvinsson</li>
           <li>Codrina Maria Ilie</li>
       </ul>
     </div>
@@ -1907,54 +1915,62 @@ n/a              </td>
     </div>
   </div>
 </section>
-                    </div>
-                </div>
             </div>
         </div>
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-main col-md-8">
-                        <div class="footer-attribution">
-                            <p>
-                                <a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
-                                    <img src="http://assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt="" border="" />
-                                </a>
-                                <a href="http://opendefinition.org/okd/" title="Open Online Software Service">
-                                    <img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="" border="" />
-                                </a>
-                                <a href="http://opendefinition.org/okd/" title="Open Content">
-                                    <img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="" border="" />
-                                </a>
-                                &ndash;
-                                <a href="http://creativecommons.org/licenses/by/3.0/" title="Content Licensed under a CC Attribution"></a>
-                                <a href="http://opendatacommons.org/licenses/pddl/1.0" title="Data License (Public Domain)">Data License (Public Domain)</a>
-                            </p>
-                        </div>
-                        <div class="footer-meta">
+    </div>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-main col-md-8">
+                <div class="footer-attribution">
+                    <p>
+                        <a href="http://opendefinition.org/ossd/" title="Open Online Software Service">
+                            <img src="http://assets.okfn.org/images/ok_buttons/os_80x15_orange_grey.png" alt=""
+                                 border=""/>
+                        </a>
+                        <a href="http://opendefinition.org/okd/" title="Open Online Software Service">
+                            <img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="" border=""/>
+                        </a>
+                        <a href="http://opendefinition.org/okd/" title="Open Content">
+                            <img src="http://assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="" border=""/>
+                        </a>
+                        &ndash;
+                        <a href="http://creativecommons.org/licenses/by/3.0/"
+                           title="Content Licensed under a CC Attribution"></a>
+                        <a href="http://opendatacommons.org/licenses/pddl/1.0"
+                           title="Data License (Public Domain)">Data License (Public
+                            Domain)</a>
+                    </p>
+                </div>
+                <div class="footer-meta">
 <p>
     This service is run by <a href="https://okfn.org/" title="Open Knowledge">Open Knowledge</a>
-</p>                            <a class="naked" href="http://okfn.org/" title="Open Knowledge"><img src="http://assets.okfn.org/p/okfn/img/okfn-logo-landscape-black-s.png" alt="" height="28"></a>
-                        </div>
-                    </div>
-                    <div class="footer-links col-md-2">
-                        <li><a href="http://okfn.org/" title="Open Knowledge">Open Knowledge</a></li>
-                        <li><a href="http://okfn.org/opendata/" title="What is Open Data?">What is Open Data?</a></li>
-                        <li><a href="http://census.okfn.org/" title="Run your own Index">Run your own Index</a></li>
-                        <li><a href="https://github.com/okfn/opendataindex" title="The source code for Open Data Index">Source Code</a></li>
-                    </div>
-                    <div class="footer-links col-md-2">
-                        <li><a href="/" title="Open Data Index home">Home</a></li>
-                        <li><a href="/download/" title="Download data">Download</a></li>
-                        <li><a href="/methodology/" title="The methodology behind the Open Data Index">Methodology</a></li>
-                        <li><a href="/faq/" title=" Open Data Index FAQ">FAQ</a></li>
-                        <li><a href="/about/" title="About the Open Data Index">About</a></li>
-                        <li><a href="/about/" title="Contact us">Contact</a></li>
-                        <li><a href="/press/" title="Press">Press</a></li>
-                    </div>
+</p>                    <a class="naked" href="http://okfn.org/" title="Open Knowledge"><img
+                            src="http://assets.okfn.org/p/okfn/img/okfn-logo-landscape-black-s.png" alt="" height="28"></a>
                 </div>
             </div>
-        </footer>
-        <script data-main="/static/scripts/site" src="/static/scripts/require.js"></script>
-    </body>
+            <div class="footer-links col-md-2">
+                <li><a href="http://okfn.org/" title="Open Knowledge">Open Knowledge</a></li>
+                <li><a href="http://okfn.org/opendata/" title="What is Open Data?">What is
+                    Open Data?</a></li>
+                <li><a href="http://census.okfn.org/" title="Run your own Index">Run your
+                    own Index</a></li>
+                <li><a href="https://github.com/okfn/opendataindex" title="The source code for Open Data Index">Source Code</a></li>
+            </div>
+            <div class="footer-links col-md-2">
+                <li><a href="/" title="Open Data Index home">Home</a></li>
+                <li><a href="/download/" title="Download data">Download</a></li>
+                <li><a href="/methodology/"
+                       title="The methodology behind the Open Data Index">Methodology</a></li>
+                <li><a href="/faq/" title=" Open Data Index FAQ">FAQ</a></li>
+                <li><a href="/about/" title="About the Open Data Index">About</a></li>
+                <li><a href="/about/" title="Contact us">Contact</a></li>
+                <li><a href="/press/" title="Press">Press</a></li>
+            </div>
+        </div>
+    </div>
+</footer>
+<script data-main="/static/scripts/site" src="/static/scripts/require.js"></script>
+</body>
 </html>
