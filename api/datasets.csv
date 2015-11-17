@@ -17,7 +17,7 @@ legislation,Legislation,Legislative,"<p>This data category requires all national
 <li>If applicable, all relevant amendments to the law</li>
 <li>Date of last amendments</li>
 <li>Data should be updated at least on quarterly  </li>
-</ul>",None,3,48,4,50,4,54
+</ul>",None,3,49,4,50,4,54
 procurement,Procurement tenders,Finance,"<p>All tenders and awards of the national/federal government aggregated by office. Monitoring tenders can help new groups to participate in tenders and increase government compliance. Data submitted in this category must be aggregated by office, updated at least monthly &amp; satisfy the following minimum criteria:</p>
 <p>Tenders:</p>
 <ul>
@@ -71,7 +71,7 @@ companies,Company Register,Civic Information,"<p>List of registered (limited lia
 <li>Unique identifier of the company</li>
 <li>Company address</li>
 <li>Updated at least once a month</li>
-</ul>",None,9,25,7,38,7,40
+</ul>",None,9,26,7,38,7,40
 postcodes,Location datasets,Geodata,"<p>A database of postcodes/zipcodes and the corresponding spatial locations in terms of a latitude and a longitude (or similar coordinates in an openly published national coordinate system). If a postcode/zipcode system does not exist in the country, please submit a dataset of administrative borders. Data submitted in this category must satisfy the following minimum conditions</p>
 <ul>
 <li>Zipcodes</li>

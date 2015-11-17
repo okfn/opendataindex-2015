@@ -19,7 +19,7 @@ companies,Company Register,Civic Information,"<p>List of registered (limited lia
 <li>Unique identifier of the company</li>
 <li>Company address</li>
 <li>Updated at least once a month</li>
-</ul>",None,9,25,7,38,7,40
+</ul>",None,9,26,7,38,7,40
 land,Land Ownership,Civic Information,"<p>Cadaster showing land ownership data on a map and include all metadata on the land. Cadaster data submmitted in this category must include the following charateristics: </p>
 <ul>
 <li>Land boarders</li>
