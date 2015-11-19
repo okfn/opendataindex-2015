@@ -28,6 +28,14 @@
 </head>
 <body class="home">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -99,83 +102,62 @@
 </header>
 
 
-<section id="home-visualisation">
-<iframe width="100%" height="508px" src="/vis/map/embed/?embed_width=100%&embed_height=508px&filter_year=2015&filter_dataset=all&panel_tools=true&panel_share=true&embed_title=All datasets ; 2015&map_place=" frameBorder="0"></iframe></section>
-
-<div id="home-stats">
+<div id="home-about">
   <div class="container">
     <h1>Tracking the state of government open data.</h1>
-<div id="summary-stats" class="row">
-  <div class="stat col-md-4 col-md-offset-1">
+    <div class="text-center"><p>The first initiative of its kind, the Global Open Data Index provides the most comprehensive snapshot available of the global state of open data.</p>
+      <a class="btn btn-primary-black btn-lg" href="/place/" title="Compare countries.">
+        Compare countries
+      </a>
+
+      <a class="btn btn-primary-black btn-lg" href="/insights/" title="See insights.">
+        See insights
+      </a>
+    </div>
+  </div>
+</div>
+
+<section id="home-visualisation">
+  <div class="row map_visualisation">
+    <div class="col-md-4 summary-stats">
+<div id="places_in_index" class="stat">
     <a href="/place/" class="burst silent-link">
-      <strong>122</strong>
+        <strong>122</strong>
     </a>
     <span class="uppercase">Places in the Index</span>
     <small>
         Up
         from 97 in 2014
     </small>
+</div>
+<div class="explain">
+  <span>
+    Here you can see the open data sccores for the currently selected dataset(s), from <i style="background-color: #f00;">0</i> to <i style="background-color: rgb(122, 184, 0);">100</i>.
+  </span>
+</div>    </div>
+    <div class="col-md-8 map"><iframe width="100%" height="300px" src="/vis/map/embed/?embed_width=100%&embed_height=300px&filter_year=2015&filter_dataset=all&panel_tools=true&panel_share=true&embed_title=All datasets ; 2015&map_place=" frameBorder="0"></iframe></div>
   </div>
-  <div class="stat col-md-5">
+  <div class="row chart_visualisation">
+    <div class="col-md-4 chart text-center">
+      <img src="/static/images/pie-10.png">
+    </div>
+    <div class="col-md-8 summary-stats">
+<div class="stat" id="alt_general_stat">
     <a href="/place/" class="burst silent-link">
-        <strong>158</strong>
-        <i>of</i>
-        <strong>1585</strong>
+        <strong>10%</strong>
     </a>
-    <span class="uppercase">Key datasets in the Index are open</span>
+    <span class="uppercase">of Key datasets in the Index are open</span>
     <small>
-        Up
+        159
+        out of
+        1586,
+          Up
         from 124 of 970 in 2014
+        <br /><i>Note: we added some new datasets this year. Find out more <a href="/methodology/">here</a>.</i>
     </small>
+</div>    </div>
   </div>
-</div>  </div>
-</div>
-
-<div class="home-about">
-  <div class="container">
-    <h2>About the Open Data Index</h2>
-    <p>The last few years has seen an explosion of activity around open data and especially open government data. Following initiatives like data.gov and data.gov.uk, numerous local, regional and national bodies have started open government data initiatives and created open data portals (from a handful three years ago there are now nearly 400 open data portals worldwide).</p>
-<p>But simply putting a few spreadsheets online under an open license is obviously not enough. Doing open government data well depends on releasing key datasets in the right way.</p>
-<p>Moreover, with the proliferation of sites it has become increasingly hard to track what is happening: which countries, or municipalities, are actually releasing open data and which aren’t? Which countries are releasing data that matters? Which countries are releasing data in the right way and in a timely way?</p>
-<p>The Global Open Data Index was created to answer these sorts of questions, providing an up-to-date and reliable guide to the state of global open data for policy-makers, researchers, journalists, activists and citizens.</p>
-<p>The first initiative of its kind, the Global Open Data Index is regularly updated and provides the most comprehensive snapshot available of the global state of open data. The Index is underpinned by a detailed annual survey of the state of open data run by Open Knowledge in collaboration with open data experts and communities around the world.</p>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 home-box">
-      <h3>Place overview</h3>
-      <p>The whole Index displayed in an easy-to-read table.</p>
-      <p>
-        <a class="btn btn-primary btn-lg" href="/place/" title="The whole Index displayed in an easy-to-read table.">
-          <i class="fa fa-table fa-fw"></i>
-          View now
-        </a>
-      </p>
-    </div>
-    <div class="col-md-4 home-box">
-      <h3>Downloads & API</h3>
-      <p>Download the raw data directly or as CSV/JSON via API.</p>
-      <p>
-        <a class="btn btn-primary btn-lg" href="/download/" title="Download the raw Index data directly or use it via a CSV/JSON API.">
-          <i class="fa fa-download fa-fw"></i>
-          Download data
-        </a>
-      </p>
-    </div>
-    <div class="col-md-4 home-box">
-      <h3>Methodology</h3>
-      <p>Read about the methodology behind the Index here.</p>
-      <p>
-        <a class="btn btn-primary btn-lg" href="/methodology/" title="Read about the methodology behind the Index here.">
-          <i class="fa fa-book fa-fw"></i>
-          Read more
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
+</section>
 
 <footer id="footer">
     <div class="container">

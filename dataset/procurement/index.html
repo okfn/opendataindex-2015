@@ -28,6 +28,14 @@
 </head>
 <body class="dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -1036,19 +1039,19 @@ JSON, CSV                  </td>
                       <p>The DNCP is in charge of maintaining the national e-procurement platform. The system contains information about all the procurement phases are: planning, tender, award, contract, amendment.</p>
 <p>All this information is available at the open data platform from the DNCP, where the user can:</p>
 <ul>
-<li>Browse information about each phase <a href="http://web.pcc.gov.tw/tps/pss/tender.do?method=goNews">1</a><a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1978-06-22;6538">3</a><a href="https://www.pancanal.com/esp/eie/surveys/topography/gps/parametros.html">5</a></li>
+<li>Browse information about each phase <a href="http://wms.geo.admin.ch/">1</a><a href="ftp://168.77.211.56/ARMU/">3</a><a href="https://www.pancanal.com/esp/eie/surveys/topography/gps/parametros.html">5</a></li>
 <li>Download this information for each phase for each year since 2010 in csv format. The files are updated daily. <a href="https://www.gov.uk/government/collections/download-inspire-index-polygons">6</a>[8][9][10]</li>
 <li>Use the API to create new Apps [11]</li>
 <li>Visualize the information in a user friendly manner [12]</li>
 </ul>
 <p>References:</p>
 <ul>
-<li><a href="https://compranet.funcionpublica.gob.mx/web/login.html">1</a> <a href="https://www.contrataciones.gov.py/datos/data/planificaciones">https://www.contrataciones.gov.py/datos/data/planificaciones</a></li>
-<li><a href="http://web.pcc.gov.tw/tps/pss/tender.do?method=goNews">2</a> <a href="https://www.contrataciones.gov.py/datos/data/convocatorias">https://www.contrataciones.gov.py/datos/data/convocatorias</a></li>
-<li><a href="http://www.buscacep.correios.com.br/">3</a> <a href="https://www.contrataciones.gov.py/datos/data/adjudicaciones">https://www.contrataciones.gov.py/datos/data/adjudicaciones</a></li>
-<li><a href="http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1978-06-22;6538">4</a> <a href="https://www.contrataciones.gov.py/datos/data/contratos">https://www.contrataciones.gov.py/datos/data/contratos</a></li>
+<li><a href="http://www.zimpost.co.zw/">1</a> <a href="https://www.contrataciones.gov.py/datos/data/planificaciones">https://www.contrataciones.gov.py/datos/data/planificaciones</a></li>
+<li><a href="http://wms.geo.admin.ch/">2</a> <a href="https://www.contrataciones.gov.py/datos/data/convocatorias">https://www.contrataciones.gov.py/datos/data/convocatorias</a></li>
+<li><a href="http://www.anati.gob.pa/">3</a> <a href="https://www.contrataciones.gov.py/datos/data/adjudicaciones">https://www.contrataciones.gov.py/datos/data/adjudicaciones</a></li>
+<li><a href="ftp://168.77.211.56/ARMU/">4</a> <a href="https://www.contrataciones.gov.py/datos/data/contratos">https://www.contrataciones.gov.py/datos/data/contratos</a></li>
 <li><a href="https://www.pancanal.com/esp/eie/surveys/topography/gps/parametros.html">5</a> <a href="https://www.contrataciones.gov.py/datos/data/modificaciones">https://www.contrataciones.gov.py/datos/data/modificaciones</a></li>
-<li><a href="https://www.gov.uk/government/collections/rural-land-register">6</a> <a href="https://www.contrataciones.gov.py/datos/planificaciones">https://www.contrataciones.gov.py/datos/planificaciones</a></li>
+<li><a href="http://www.ncdc.noaa.gov/customer-support">6</a> <a href="https://www.contrataciones.gov.py/datos/planificaciones">https://www.contrataciones.gov.py/datos/planificaciones</a></li>
 <li><a href="https://www.gov.uk/government/collections/download-inspire-index-polygons">7</a> <a href="https://www.contrataciones.gov.py/datos/convocatorias">https://www.contrataciones.gov.py/datos/convocatorias</a></li>
 <li>[8] <a href="https://www.contrataciones.gov.py/datos/adjudicaciones">https://www.contrataciones.gov.py/datos/adjudicaciones</a></li>
 <li>[9] <a href="https://www.contrataciones.gov.py/datos/contratos">https://www.contrataciones.gov.py/datos/contratos</a></li>
@@ -11222,7 +11225,7 @@ n/a                  </td>
 <span style="visibility: hidden;">Nigeria</span>
                       <br /><br />
                       <p>The <a href="http://www.bpp.gov.ng/">Bureau of Public Procurement</a> is responsible for publishing tenders and awards of the federal government, and its Ministries, Departments and Agencies.</p>
-<p>The last consolidated procurement records released by this government agency <a href="http://www.bpp.gov.ng/index.php?">was in 2011, while having some from 2010</a>. However, it should be noted that the agency publishes <a href="https://contrataciondelestado.es/wps/portal/info/rss2/!ut/p/b1/pZLLboMwEEW_KPK1PTawNC8DIg2EQhs2FYsqQspjE_X7SylZpFGdSp3daM7RXcxlPdutuKeFH2hBxF5Zfxo-xv1wGc-n4fC19_otbHzfhNzANmsOoxOplQC3jZiA3QQoGVFXdJVucgvkWRqXLVewQv_Nxy9jMPumS2qTBxJ2WyUQ4dbTlG4kcPUdwE2-74Xxkl9zAajFdwC3fkQ0nYOgq80zh-U_fVsUCmYNKm3FJRLh9Ok-_y7A6eOBT_hfPqlH_3th_YxQsomiNBPwGxlDlHHb6mxarVgAV0VmwNUBdwuugOMLT9n5-M6O_SH9niAf85X5BKz-hsc!/dl4/d5/L2dJQSEvUUt3QS80SmtFL1o2X0cwNjRDSTkzME9BU0QwSThVT1VDRTAwMDE1/">Federal Executive Council's contracts</a> for every three months in PDFs, which doesn't include the tender status.</p>
+<p>The last consolidated procurement records released by this government agency <a href="http://www.bpp.gov.ng/index.php?">was in 2011, while having some from 2010</a>. However, it should be noted that the agency publishes <a href="http://www.anati.gob.pa/">Federal Executive Council's contracts</a> for every three months in PDFs, which doesn't include the tender status.</p>
                       <br />
                   </td>
               </tr>

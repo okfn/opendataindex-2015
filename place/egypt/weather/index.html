@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -299,7 +302,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The Egyptian Meteorological Authority publishes temperature readings for Egypt main cities. [<a href="http://ema.gov.eg/]">http://ema.gov.eg/]</a> It also published forecasts of temperature, humidity and wind speed for the upcoming 4 (not 5) days. [<a href="http://ema.gov.eg/pdf/4df.png]">http://ema.gov.eg/pdf/4df.png]</a></p>
 <p>They do not publish precipitation on the same website, but humidity instead, which I think is fine as rain is rare in most of Egypt, and precipitation is not really useful to citizens most of the time. Nevertheless, the precipitation forecast can be found on NWP website which belongs to the same authority. [<a href="http://nwp.gov.eg/index.php/wrf/preciptation]">http://nwp.gov.eg/index.php/wrf/preciptation]</a></p>
 <p>Historical Data was not found on the website, however, it temperature, humidity and windspeed charts are found as part of the Pollution Reports published by NWP. [<a href="http://nwp.gov.eg/index.php/reports-enviromental]">http://nwp.gov.eg/index.php/reports-enviromental]</a>. It worth mentioning that this data is not available in reports since October 2014, thus we marked the dataset as not provided on a timely and up to date basis.</p>

@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -298,7 +301,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The national statistics office publishes statistics at <a href="https://www.destatis.de/DE/Publikationen/Publikationen.html">https://www.destatis.de/DE/Publikationen/Publikationen.html</a> and statistical data at <a href="https://www-genesis.destatis.de/genesis/online/data">https://www-genesis.destatis.de/genesis/online/data</a> It is available in in XLS offer and formats, however the quality of the machine readable data is abysmal.</p>
 <p>The general Copyright statement is essentially saying that you can reuse the data provided attribution is given, but you are not allowed to change or manipulate the information: "© Statistisches Bundesamt, Wiesbaden 2013. Sie können Informationen speichern, (auch auszugsweise) mit Quellenangabe weitergeben, vervielfältigen und verbreiten sowie Links zur Homepage des Statistischen Bundesamtes legen. Die Informationen dürfen im Übrigen nicht verändert oder verfälscht werden." which makes it not openly licensed. At <a href="http://www.govdata.de">http://www.govdata.de</a> the same data is available under the German "Datenlizenz Deutschland" which has been revied and considered not comliant with the Open Definition in Version 1.0. A process to address these issues are underway with version 2.0 of the "Datenlizenz Deutschland".</p>
         </div>

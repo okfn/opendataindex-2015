@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -307,7 +310,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>As part of the "BAG" data which contains all addresses and buildings in the Netherlands. The data set is most likely public domain (In this <a href="http://geodata.nationaalgeoregister.nl/inspireadressen/atom/inspireadressen.xml">http://geodata.nationaalgeoregister.nl/inspireadressen/atom/inspireadressen.xml</a> the description link yields an XML that specifies public domain), and the national data portal lists the BAG as public domain (although provides faulty links) <a href="https://data.overheid.nl/data/dataset/basisregistratie-adressen-en-gebouwen-bag-">https://data.overheid.nl/data/dataset/basisregistratie-adressen-en-gebouwen-bag-</a>.  The downloaded data set does not contain licensing info. </p>
 <p>Cadastre is the data holder but they provide no direct mention of the data set on their own site, just a reference to their paid for services. They are however listed as data holder and contact info in the links above as well. </p>
 <p>The data dump is a 1.4 GB zip file, that contains 7 other zip files, yielding over 30GB of data when unpacked, split up in 21MB xml files. This is the full BAG data set, containing all addresses and buildings for all of the Netherlands. From this dataset you need to combine several subsets to get to a full postcode list: The ‘NUM’ files give you address index numbers, its georeferences, the house number and the postcode, and a number that corresponds with a street. The ‘OPR’ files give you the corresponding street name, and the number of the place it is in. The ‘WPL’ files give you the place name, and through a separate table also the municipality it is in. (Do note that is does not include postcodes that are not connected to geolocations, such as PO Boxes) See for a detailed description of the search for the Dutch postcode data; <a href="http://www.zylstra.org/blog/2013/10/theoretically-open-post-codes-not-so-much-in-practice/">http://www.zylstra.org/blog/2013/10/theoretically-open-post-codes-not-so-much-in-practice/</a></p>

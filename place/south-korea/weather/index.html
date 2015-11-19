@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -299,7 +302,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The Korea Meteorological Administration (KMA) provides only <a href="http://web.kma.go.kr/eng/weather/forecast/timeseries.jsp">3 days forecast</a> of temperature, precipitation, and wind. For <a href="http://web.kma.go.kr/eng/weather/forecast/mid-term.jsp">5 days forecast</a>, they only provide weather and temperature information. The same data is available in machine-readable formats via <a href="http://web.kma.go.kr/info_open/public_data/request.jsp">Web APIs</a>, but it requires the pre-registration step.</p>
 <p>Recorded data for temperature, precipitation, and wind for the last year or so is available on the site called "<a href="http://sts.kma.go.kr/eng/jsp/home/contents/main/main.do">National Climate Data Service System (NCDSS)</a>," and it is publicly available in machine-readable formats.</p>
 <p>All the datasets are not openly licensed, but copyrighted by KMA.</p>

@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -123,7 +126,7 @@
                 <div class="open-badge"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" /></div>
             </h3>
             <div class="col-md-12 place-rank statistics">
-                    <span class="">Georgia is ranked #47 for this dataset</span>
+                    <span class="">Georgia is ranked #46 for this dataset</span>
             </div>
             <div class="row relative">
                 <div class="col-md-1 change"><i class="fa fa-arrow-down"></i></div>
@@ -304,7 +307,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Information about the 2014 Municipal Elections (which were centrally administered) is available at <a href="http://results2014.cec.gov.ge/">http://results2014.cec.gov.ge/</a> with a nice interface and precinct level results as both HTML tables and scanned PDFs of the original documents. Results for past elections are displayed under the Archive section of the website (<a href="http://www.cesko.ge/en/arqivi-6">http://www.cesko.ge/en/arqivi-6</a>), data for the historically important 2012 Parliamentary Elections is available at <a href="http://results2012.cec.gov.ge/">http://results2012.cec.gov.ge/</a>. </p>
 <p>Although precinct-level data is provided in HTML tables, API calls to the interactive portion of the website return Javascript / HTML snippets which are designed to be directly inserted into the website DOM, making them effectively not machine-readable without significant effort. This also means that the data is not available in bulk, because individual precinct results would need to be downloaded manually.</p>
 <p>In addition, precinct level data is incomplete and not available upon request. Only district level data is. This makes it difficult to conduct many kinds of analyses on the data. </p>

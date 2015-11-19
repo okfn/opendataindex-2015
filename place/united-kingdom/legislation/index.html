@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -303,7 +306,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>A comprehensive database of UK legislation is maintained online by The National Archives, an agency of the Ministry of Justice. The information is re-usable under the UK's Open Government Licence. -- update after asking National Archives and checking online ---
 A variety of machine readable formats are available through the API - see <a href="http://www.legislation.gov.uk/developer/formats">http://www.legislation.gov.uk/developer/formats</a> (amended machine-readable to yes and updated formats). Currently the database is <em>not</em> downloadable in bulk. Initially the target was to provide this by end-March 2014 </p>
 <p>Update on Bulk Download: We received the following response following a request for an update on the progress that has been made towards offering bulk download: " We have made some progress on bulk downloads and there is currently a project underway to make bulk downloads of all legislation.gov.uk data publicly available. Some data is already available at <a href="http://leggovuk.s3-website-eu-west-1.amazonaws.com/">http://leggovuk.s3-website-eu-west-1.amazonaws.com/</a> in XML and HTML formats. However it should be noted that this is a trial site that is expected to change. New legislation is published on a daily basis as are amendments to existing legislation. The download site is currently still in development so is not being regularly updated with new content at the present time.  At the moment there are no bulk downloads available for PDFs. The data on legislation.gov.uk has been collated over a number of years from a variety of sources and is not all in the same base format. We plan to make available a dataset of original print PDFs - these are versions of the original hardcopy documents as published. However, we do not hold all legislation in this format so this will not contain all the legislation on the website."</p>

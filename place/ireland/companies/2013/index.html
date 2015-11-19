@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -299,7 +302,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Data available via free API for which signup is required at <a href="https://services.cro.ie/overview.aspx.Only">https://services.cro.ie/overview.aspx.Only</a> uncertified documents/extracts from the register can be made available electronically. If certified copy documents or extracts from the register are required, one need to contact Postal Enquiries Section, CRO, 14 Parnell Square, Dublin 1 with written request in this regard, together with payment of the appropriate fee.
 Some data are for fee and some are for free. "The CRO supplies, under licence, data in bulk format for high volume users of our data. The data concerned is basic company information in respect of all companies on the register. Daily updates of the data may be downloaded via the internet - a password is assigned to a Licensee to facilitate this. The fees for the daily data update service are below. Copies of all scanned documents received by CRO can also be made available at a cost of €63,360 per annum." Here are their terms of use <a href="http://www.cro.ie/ena/downloads-bulk-data.aspx">http://www.cro.ie/ena/downloads-bulk-data.aspx</a> and <a href="http://www.cro.ie/ena/access-to-cro-data.aspx">http://www.cro.ie/ena/access-to-cro-data.aspx</a>. [DATA AVAILABLE ONLINE: changed to NO (The requirement is not for detailed financial information. However, we can't find a "list of companies" on the CRO site or API either. You can run queries for specific companies, but you can't return a full list. So this is a NO.</p>
         </div>

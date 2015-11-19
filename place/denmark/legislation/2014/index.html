@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -303,7 +306,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The site contains no "term and conditions" and are therefore not open, however you should be able to safely reuse it.</p>
 <p>When you perform a search through Retsinformation.dk you can chose the option "Eksporter søgeresultatet" which gives you the search result in CSV - you can search for all documents to get a full CSV bulk download of the <em>metadata</em> of all legislation (although with 77,000 entries this sometimes over-stresses the server - if so make several queries).</p>
 <p>The section on the Lex Dania project (<a href="https://www.retsinformation.dk/Forms/R0500.aspx?page=5">https://www.retsinformation.dk/Forms/R0500.aspx?page=5</a>) outlines that all legislative is available in XML format as of 2007. So, data can be considered machine readable.</p>

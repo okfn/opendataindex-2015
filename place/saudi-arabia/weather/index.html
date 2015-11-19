@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -299,7 +302,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>As for the 5 days weather forecast, it is provided by the Saudi Presidency of Meteorology and Environment here (<a href="http://www.pme.gov.sa/w5df.asp">http://www.pme.gov.sa/w5df.asp</a>), there is also radar readings from different stations (<a href="http://www.pme.gov.sa/Doppler.asp">http://www.pme.gov.sa/Doppler.asp</a>). The map here (<a href="http://jrcc.sa/as/">http://jrcc.sa/as/</a>) shows those stations. The forecast data includes temperature, wind speed, humidity and symbols for thunderstorms, rain and sunny, etc.</p>
 <p>Historic data is a bit problematic here, the Saudi Open Data Portal (<a href="http://data.gov.sa/">http://data.gov.sa/</a>) provides datasets for temperature (<a href="http://data.gov.sa/dataset/temperature">http://data.gov.sa/dataset/temperature</a>), wind (<a href="http://data.gov.sa/dataset/wind">http://data.gov.sa/dataset/wind</a>), humidity (<a href="http://data.gov.sa/dataset/relative-humidity">http://data.gov.sa/dataset/relative-humidity</a>), thunderstorms (<a href="http://data.gov.sa/dataset/thunderstorms">http://data.gov.sa/dataset/thunderstorms</a>), fog (<a href="http://data.gov.sa/dataset/fog-phenomena">http://data.gov.sa/dataset/fog-phenomena</a>), etc. However, when accessed the most recent XLS files, they are of 2013.</p>
 <p>Note, although the data on the Open Data portal is in bulk and openly licensed, that on the Presidency of Meteorology and Environment is copyrighted, and since we gave more weight to the latter as the former is not up to date. We answered the questions about licensing and machine readability according to how the information is presented in the Presidency of Meteorology and Environment</p>

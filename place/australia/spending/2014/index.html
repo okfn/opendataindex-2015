@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -305,7 +308,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Data is released fortnightly through Austender, and compilation dating back to 2011 is available on data.gov.au. 
 The dataset at <a href="https://www.tenders.gov.au/?event=public.reports.listCNWeeklyExport">https://www.tenders.gov.au/?event=public.reports.listCNWeeklyExport</a> is a dataset of contract notices; "The Contract Notice Export is an export file containing contract notice data for all Australian Government agencies who report procurement on AusTender published over a one week period." Although this is valuable data (and in line with that published by other excellent jurisdictions) it is not <em>expenditure</em> information in terms of the definition of this element ("Government spending at a detailed transactional level, that is at the level of month to month government expenditure including money spent on specific contracts or with specific vendors."). It does not detail individual payments to vendors when they are made, only the overall estimated value of the contract at the time of award. IMHO there should also be category for contract award information for which this dataset would be an excellent example. But it is not the expenditure information required by the census. </p>
 <p>There is aggregated data on expenditure on the national statistics website - <a href="http://www.abs.gov.au/">http://www.abs.gov.au/</a></p>

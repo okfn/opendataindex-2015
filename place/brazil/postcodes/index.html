@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -311,7 +314,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The <a href="https://en.wikipedia.org/wiki/C%C3%B3digo_de_Endere%C3%A7amento_Postal">Brazilian postcode is named CEP</a>. It is an hierarchical code with 8 digits.   The <a href="https://upload.wikimedia.org/wikipedia/commons/0/0e/MAPA_DAS_REGI%C3%95ES_DE_CEP.JPG">partial 5-digit CEP  have map and polygonal representation</a>, but full 8-digit CEP not (it is used today as a logistic non-spatial information), is only a street segment attribute.</p>
 <p>Individual CEPs are supplied free, but a <em>full-copy</em> of all CEPs aren't free (<strong>not available in bulk</strong>)... The access to database  queries is <a href="http://www.buscacep.correios.com.br/">free as Internet-webservice</a>: CEP-to-address, and address-to-CEP, human and machine resolution services... So this is a cause of <em>ambiguity in this form: CEP is individually free, but must pay to access on bulk</em>.</p>
 <p>The CEP, as a postcode-list, is copyrighted and sold by the public company "Empresa Brasileira de Correios e Telégrafos - Correios" (Brazilian mail service). It is a non-spatial database, with no coordinates in the dataset: <a href="http://www.correios.com.br/para-voce/correios-de-a-a-z/dne">http://www.correios.com.br/para-voce/correios-de-a-a-z/dne</a></p>

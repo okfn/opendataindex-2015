@@ -27,7 +27,7 @@ land,Land Ownership,Civic Information,"<p>Cadaster showing land ownership data o
 <li>Land size</li>
 <li>national level</li>
 <li>updated yearly</li>
-</ul>",None,11,19,11,0,11,0
+</ul>",None,12,19,11,0,11,0
 health,Health performance,Civic Information,"<p>Geo location of public hospitals and health facilities with opening hours and infectious diseases rate, updated at least once a year. Data submitted in this category must include the following:</p>
 <ul>
 <li>Location of public hospitals and clinics.</li>

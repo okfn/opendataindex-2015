@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -309,7 +312,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Licence is not reliable. At the bottom it says "All content is available under the Open Government Licence v2.0, except where otherwise stated" which is the standard across gov.uk. However I believe that some records do contain exceptions to this, as described in the Terms and Conditions for the archive here: <a href="http://data.gov.uk/data/contracts-finder-archive/data-feeds/">http://data.gov.uk/data/contracts-finder-archive/data-feeds/</a> So unless someone is going to reliably weed out the exceptions, then this is not open data.</p>
 <p>Data download was restricted to 1000 items. Could not find any full download. I appreciate there are of order 20GB data per year (including the tender documents), but still, this is 2015 and services like Police.uk crime data publish 1GB data files every month on their site.</p>
         </div>

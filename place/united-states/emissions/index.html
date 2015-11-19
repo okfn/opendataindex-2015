@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -116,14 +119,14 @@
     <div class="row">
         <div class="col-md-6">
             <h1>
-                <a href="/dataset/emissions/" title="See more data on Pollutant Emissions in the Open Data Index">Pollutant Emissions</a>                <span class="place-openness" data-score="70">70% open</span>
+                <a href="/dataset/emissions/" title="See more data on Pollutant Emissions in the Open Data Index">Pollutant Emissions</a>                <span class="place-openness" data-score="100">100% open</span>
             </h1>
             <h3>
                 <a href="/place/united-states/" title="See more data on United States in the Open Data Index">United States</a>
                 <div class="open-badge"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" /></div>
             </h3>
             <div class="col-md-12 place-rank statistics">
-                    <span class="">United States is ranked #6 for this dataset</span>
+                    <span class="">United States is ranked #1 for this dataset</span>
             </div>
             <div class="row relative">
                 <div class="col-md-1 change"><i class="fa fa-arrow-up"></i></div>
@@ -215,7 +218,7 @@
         </div>
         <div class="col-md-6">
             <ul class="availability-single">
-                <li class="maybe" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
+                <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
 
 &lt;p&gt;Licences are commonly found in:&lt;/p&gt;
 
@@ -227,7 +230,7 @@
 
 &lt;p&gt;Some licences may allow re-use and redistribution but have not been assessed as conformant with the Open Definition. In this case, seek feedback on the Open Data Index discussion forum&lt;/p&gt;" data-placement="right">
                     <i class="fa fa-unlock-alt pointer" title="Click for more information"></i>&nbsp;
-                    Openly licensed? Unsure (No URL given)                </li>
+                    Openly licensed? Yes(<a href="http://www.copyright.gov/title17/92chap1.html#105">Here</a>)                </li>
                 <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available for free? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The data is free if you don’t have to pay for it.&lt;/p&gt;" data-placement="right">
                     <i class="fa fa-dollar pointer" title="Click for more information"></i>&nbsp;
                     Is the data available for free? Yes                </li>
@@ -306,11 +309,14 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Another site of the epa only for pm vale
 <a href="http://www3.epa.gov/airtrends/pm.html">http://www3.epa.gov/airtrends/pm.html</a>
 i didnt see VOCs  measurement  but i think it shold be 
 in NATTS (National Air Toxics Trends Stations) that dont look to work in this time</p>
+<p>On open licenses: 
+<a href="https://wiki.creativecommons.org/wiki/Government_use_of_Creative_Commons#Federal">https://wiki.creativecommons.org/wiki/Government_use_of_Creative_Commons#Federal</a>
+Note: "Works by the US federal government are automatically part of the public domain in the US"</p>
         </div>
     </div>
 </section>
@@ -321,13 +327,13 @@ in NATTS (National Air Toxics Trends Stations) that dont look to work in this ti
     <div class="col-md-6">
       <h4>Reviewers</h4>
       <ul>
-          <li>yar michl</li>
+          <li>Mor Rubinstein</li>
       </ul>
   </div>
   <div class="col-md-6">
       <h4>Submitters</h4>
       <ul>
-          <li>anonymous</li>
+          <li>Blessing Jee</li>
       </ul>
   </div>
 </div>

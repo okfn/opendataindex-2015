@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -306,7 +309,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>You can download the results of searches as XML (and also in some cases as CSV) - see e.g. <a href="http://www.npi.gov.au/npidata/action/load/download-result">http://www.npi.gov.au/npidata/action/load/download-result</a>. As such we are marking machine-readable as yes. However bulk is marked "no" as there is no simple way to get the entire database easily. Data is not openly licensed as copyright notice at <a href="http://www.npi.gov.au/%C2%A9-commonwealth-australia">http://www.npi.gov.au/%C2%A9-commonwealth-australia</a> states: "You may download, store in cache, display, print and reproduce the material in unaltered form only (retaining this notice, or links to it where they appear) for your personal, non-commercial use or use within your organisation." (Note also that the copyright link on many data pages is to <a href="http://www.npi.gov.au/about/copyright.html">http://www.npi.gov.au/about/copyright.html</a> which 404s!).</p>
         </div>
     </div>

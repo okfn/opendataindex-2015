@@ -28,6 +28,14 @@
 </head>
 <body class="places">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -115,7 +118,7 @@
   
 <div id="summary-stats" class="row">
   <div class="stat col-md-3">
-    <strong>9%</strong>
+    <strong>10%</strong>
     <span class="percent-open-context" data-toggle="popover" title="What does this mean?" data-content="This is the percentage of all the dataset entries that are open as per the Open Definition. We get one dataset entry for each dataset and place (e.g. Transport Timetables for the United Kingdom is one dataset entry). For each entry we check whether the dataset is fully open as per the Open Definition, and then divide by the total number of entries to get a percentage. &lt;a href=&#34;faq/#open-data&#34;&gt;Find out more about Open Data&lt;/a&gt;">Percent Open <i class="fa fa-question-circle"></i></span>
     <small>
         Down
@@ -131,7 +134,7 @@
     </small>
   </div>
   <div class="stat col-md-3">
-    <strong>1585</strong>
+    <strong>1586</strong>
     <span>Number of Entries</span>
     <small>
         Up
@@ -139,7 +142,7 @@
     </small>
   </div>
   <div class="stat col-md-3">
-    <strong>158</strong>
+    <strong>159</strong>
     <span>Number of Open Datasets</span>
     <small>
         Up
@@ -191,7 +194,7 @@
         <p>
             Use the following code to embed the map visualisation into your own website.
         </p>
-        <xmp contenteditable="true"><iframe width="100%" height="508px" src="/vis/map/embed/?embed_width=100%&embed_height=508px&filter_year=2015&filter_dataset=all&panel_tools=true&panel_share=true&map_place=" frameBorder="0"></iframe></xmp>
+        <xmp contenteditable="true"><iframe width="100%" height="300px" src="/vis/map/embed/?embed_width=100%&embed_height=300px&filter_year=2015&filter_dataset=all&panel_tools=true&panel_share=true&map_place=" frameBorder="0"></iframe></xmp>
         <p>
         If you are a developer, you can read more about the embed options here: <a href="https://github.com/okfn/opendataindex/#choropleth-map" title="Embed options">Embed options</a>
         </p>
@@ -372,661 +375,9 @@
       </tr>
     </thead>
     <tbody>
-          <tr data-rank="1" data-score="78" data-place="taiwan">
+          <tr data-rank="1" data-score="78" data-place="united-kingdom">
             <td class="rank" data-rank="1">
               <div>1</div>
-            </td>
-            <td>
-              <a href="/place/taiwan/" title="Taiwan">
-                Taiwan
-              </a>
-            </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;National Statistics&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/6803&#34; title=&#34;statistics for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;Data are openly licensed, current, and available in open formats. ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/statistics/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Government Budget&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/11851&#34; title=&#34;budget for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;They also provide brief presentation on analysis of annual revenue and Expenditure in English, ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/budget/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Legislation&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://law.moj.gov.tw/PublicData/GetFile.ashx?DType=XML&amp;AuData=CF&#34; title=&#34;legislation for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;It&#39;s a website above is belong to Ministry of Justice, and use to search the laws, date, ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/legislation/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Procurement tenders&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/7264&#34; title=&#34;procurement for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;Active tenders are searchable. Full data is available through the Open Data portal.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Zh-TW ...&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/procurement/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Election Results&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/13119&#34; title=&#34;elections for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    No additional details
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/elections/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;National Map&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/9363&#34; title=&#34;map for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;The original website (&lt;a href=&#34;http://emap.nlsc.gov.tw/gis/&#34;&gt;http://emap.nlsc.gov.tw/gis/&lt;/a&gt; ) is a mapping service online, you have to ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/map/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Weather forecast&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/9219&#34; title=&#34;weather for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;The PDF is Chinese-English  vocabulary form not about the data, but you can find the 7 days ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/weather/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Pollutant Emissions&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://opendata.epa.gov.tw/Data/Contents/AQX/&#34; title=&#34;emissions for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    No additional details
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/emissions/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Company Register&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gcis.nat.gov.tw/od/detail?oid=AD28285B-7B0E-4241-9F58-F2F0F289333E&#34; title=&#34;companies for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;Company data is updated month by month. NB, some users may have trouble viewing Taiwanese ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/companies/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Location datasets&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not free
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not online
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;ol&gt;
-&lt;li&gt;The Zip Code &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;above&lt;/a&gt;. is in Zh-TW and can be open by unzip tools, and also provide the ...&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/postcodes/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Water Quality&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://data.gov.tw/node/6308&#34; title=&#34;water for Taiwan on the web&#34;&gt;here&lt;/a&gt;
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;The item above is about the water quality of reservoirs in different place. The data is about ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/water/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Land Ownership&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not free
-    &lt;/li&gt;
-    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s unclear if it&#39;s  machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s unclear if it&#39;s  available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s unclear if it&#39;s  up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not online
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    No additional details
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/land/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="maybe" data-content="Unsure">&nbsp;</li>
-                    <li class="maybe" data-content="Unsure">&nbsp;</li>
-                    <li class="maybe" data-content="Unsure">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Government Spending&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not openly licensed
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not free
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not machine readable
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not available in bulk
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not up to date
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not public
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
-    &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not online
-    &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        Data does not exist
-    &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;
-    &lt;p&gt;&lt;a href=&#34;http://www.dgbas.gov.tw/public/Attachment/4828914358VPAUQXD.xls&#34;&gt;http://www.dgbas.gov.tw/public/Attachment/4828914358VPAUQXD.xls&lt;/a&gt; shows the aggregated data which ...&lt;/p&gt;
-&lt;/p&gt;
-&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/spending/&#34;&gt;
-    Read more &amp;raquo;
-&lt;/a&gt;
-">
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                  </ul>
-                </td>
-            <td class="score" data-score="78">
-              <span>78%</span>
-            </td>
-          </tr>
-          <tr data-rank="2" data-score="75" data-place="united-kingdom">
-            <td class="rank" data-rank="2">
-              <div>2</div>
             </td>
             <td>
               <a href="/place/united-kingdom/" title="United Kingdom">
@@ -1527,8 +878,8 @@
     &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
         It&#39;s not openly licensed
     &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not free
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
     &lt;/li&gt;
     &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
         It&#39;s not machine readable
@@ -1539,35 +890,36 @@
     &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
         It&#39;s not up to date
     &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not public
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
     &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not digital
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
     &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s not online
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://www.dwi.gov.uk/about/annual-report/2014/index.html&#34; title=&#34;water for United Kingdom on the web&#34;&gt;here&lt;/a&gt;
     &lt;/li&gt;
-    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
         Data does not exist
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;From the research I did, I found that there is no one consolidated datasets for drinking water ...&lt;/p&gt;
+    &lt;p&gt;Drinking Water Inspectorate (DWI) collects data from private companies in &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;this link&lt;/a&gt;. It ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/united-kingdom/water/&#34;&gt;
     Read more &amp;raquo;
 &lt;/a&gt;
 ">
                     <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
                     <li class="no" data-content="No">&nbsp;</li>
                     <li class="no" data-content="No">&nbsp;</li>
                     <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
-                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
                   </ul>
                 </td>
                 <td>
@@ -1667,8 +1019,660 @@
                     <li class="yes" data-content="Yes">&nbsp;</li>
                   </ul>
                 </td>
-            <td class="score" data-score="75">
-              <span>75%</span>
+            <td class="score" data-score="78">
+              <span>78%</span>
+            </td>
+          </tr>
+          <tr data-rank="1" data-score="78" data-place="taiwan">
+            <td class="rank" data-rank="1">
+              <div>1</div>
+            </td>
+            <td>
+              <a href="/place/taiwan/" title="Taiwan">
+                Taiwan
+              </a>
+            </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;National Statistics&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/6803&#34; title=&#34;statistics for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;Data are openly licensed, current, and available in open formats. ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/statistics/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Government Budget&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/11851&#34; title=&#34;budget for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;They also provide brief presentation on analysis of annual revenue and Expenditure in English, ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/budget/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Legislation&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://law.moj.gov.tw/PublicData/GetFile.ashx?DType=XML&amp;AuData=CF&#34; title=&#34;legislation for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;It&#39;s a website above is belong to Ministry of Justice, and use to search the laws, date, ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/legislation/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Procurement tenders&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/7264&#34; title=&#34;procurement for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;Active tenders are searchable. Full data is available through the Open Data portal.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zh-TW ...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/procurement/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Election Results&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/13119&#34; title=&#34;elections for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    No additional details
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/elections/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;National Map&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/9363&#34; title=&#34;map for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;The original website (&lt;a href=&#34;http://emap.nlsc.gov.tw/gis/&#34;&gt;http://emap.nlsc.gov.tw/gis/&lt;/a&gt; ) is a mapping service online, you have to ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/map/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Weather forecast&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/9219&#34; title=&#34;weather for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;The PDF is Chinese-English  vocabulary form not about the data, but you can find the 7 days ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/weather/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Pollutant Emissions&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://opendata.epa.gov.tw/Data/Contents/AQX/&#34; title=&#34;emissions for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    No additional details
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/emissions/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Company Register&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gcis.nat.gov.tw/od/detail?oid=AD28285B-7B0E-4241-9F58-F2F0F289333E&#34; title=&#34;companies for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;Company data is updated month by month. NB, some users may have trouble viewing Taiwanese ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/companies/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Location datasets&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not free
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not online
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;ol&gt;
+&lt;li&gt;The Zip Code &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;above&lt;/a&gt;. is in Zh-TW and can be open by unzip tools, and also provide the ...&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/postcodes/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Water Quality&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  online
+        &lt;a href=&#34;http://data.gov.tw/node/6308&#34; title=&#34;water for Taiwan on the web&#34;&gt;here&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;The item above is about the water quality of reservoirs in different place. The data is about ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/water/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Land Ownership&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not free
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not online
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    No additional details
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/land/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Government Spending&lt;/strong&gt; in &lt;strong&gt;Taiwan&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not free
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not public
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not online
+    &lt;/li&gt;
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://www.dgbas.gov.tw/public/Attachment/4828914358VPAUQXD.xls&#34;&gt;http://www.dgbas.gov.tw/public/Attachment/4828914358VPAUQXD.xls&lt;/a&gt; shows the aggregated data which ...&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/taiwan/spending/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
+">
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
+                  </ul>
+                </td>
+            <td class="score" data-score="78">
+              <span>78%</span>
             </td>
           </tr>
           <tr data-rank="3" data-score="72" data-place="colombia">
@@ -5405,7 +5409,7 @@ no donwload of data is Available or donwload data in ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Australian Post provides postcode data as a &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;free PDF&lt;/a&gt; that enables you to look up postcodes ...&lt;/p&gt;
+    &lt;p&gt;Australian Post provides postcode data as a &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;free PDF&lt;/a&gt; that enables you to look up postcodes ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/australia/postcodes/&#34;&gt;
     Read more &amp;raquo;
@@ -6223,9 +6227,9 @@ Shapefile and WFS data at: ...&lt;/p&gt;
               <span>66%</span>
             </td>
           </tr>
-          <tr data-rank="9" data-score="66" data-place="united-states">
-            <td class="rank" data-rank="9">
-              <div>9</div>
+          <tr data-rank="10" data-score="64" data-place="united-states">
+            <td class="rank" data-rank="10">
+              <div>10</div>
             </td>
             <td>
               <a href="/place/united-states/" title="United States">
@@ -6411,7 +6415,7 @@ Shapefile and WFS data at: ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;In addition, here is the &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;link&lt;/a&gt; to the GSA eLibrary that provides contract award / ...&lt;/p&gt;
+    &lt;p&gt;In addition, here is the &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;link&lt;/a&gt; to the GSA eLibrary that provides contract award / ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/united-states/procurement/&#34;&gt;
     Read more &amp;raquo;
@@ -6430,30 +6434,29 @@ Shapefile and WFS data at: ...&lt;/p&gt;
                 </td>
                 <td>
                   <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Election Results&lt;/strong&gt; in &lt;strong&gt;United States&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s unclear if it&#39;s  openly licensed
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not openly licensed
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  free
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not free
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  machine readable
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not machine readable
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  available in bulk
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not available in bulk
     &lt;/li&gt;
     &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
         It&#39;s not up to date
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  public
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not public
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  digital
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  digital
     &lt;/li&gt;
-    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s  online
-        &lt;a href=&#34;http://www.fec.gov/pubrec/electionresults.shtml&#34; title=&#34;elections for United States on the web&#34;&gt;here&lt;/a&gt;
+    &lt;li class=&#34;no&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s not online
     &lt;/li&gt;
     &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
         Data does not exist
@@ -6466,14 +6469,14 @@ Shapefile and WFS data at: ...&lt;/p&gt;
     Read more &amp;raquo;
 &lt;/a&gt;
 ">
-                    <li class="maybe" data-content="Unsure">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
                     <li class="no" data-content="No">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
-                    <li class="yes" data-content="Yes">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="no" data-content="No">&nbsp;</li>
                     <li class="yes" data-content="Yes">&nbsp;</li>
                   </ul>
                 </td>
@@ -6578,8 +6581,8 @@ Shapefile and WFS data at: ...&lt;/p&gt;
                 </td>
                 <td>
                   <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Pollutant Emissions&lt;/strong&gt; in &lt;strong&gt;United States&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
-    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
-        It&#39;s unclear if it&#39;s  openly licensed
+    &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s  openly licensed
     &lt;/li&gt;
     &lt;li class=&#34;yes&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
         It&#39;s  free
@@ -6616,7 +6619,7 @@ i didnt see ...&lt;/p&gt;
     Read more &amp;raquo;
 &lt;/a&gt;
 ">
-                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="yes" data-content="Yes">&nbsp;</li>
                     <li class="yes" data-content="Yes">&nbsp;</li>
                     <li class="yes" data-content="Yes">&nbsp;</li>
                     <li class="yes" data-content="Yes">&nbsp;</li>
@@ -6869,13 +6872,13 @@ i didnt see ...&lt;/p&gt;
                     <li class="yes" data-content="Yes">&nbsp;</li>
                   </ul>
                 </td>
-            <td class="score" data-score="66">
-              <span>66%</span>
+            <td class="score" data-score="64">
+              <span>64%</span>
             </td>
           </tr>
-          <tr data-rank="11" data-score="64" data-place="netherlands">
-            <td class="rank" data-rank="11">
-              <div>11</div>
+          <tr data-rank="10" data-score="64" data-place="netherlands">
+            <td class="rank" data-rank="10">
+              <div>10</div>
             </td>
             <td>
               <a href="/place/netherlands/" title="Netherlands">
@@ -8649,7 +8652,7 @@ The data on elections is not open to the public under EML standard. If this data
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;The &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;Brazilian postcode is named CEP&lt;/a&gt;. It is an hierarchical code with 8 digits.   The ...&lt;/p&gt;
+    &lt;p&gt;The &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;Brazilian postcode is named CEP&lt;/a&gt;. It is an hierarchical code with 8 digits.   The ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/brazil/postcodes/&#34;&gt;
     Read more &amp;raquo;
@@ -9008,7 +9011,7 @@ The data on elections is not open to the public under EML standard. If this data
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Public procurement site is &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;Compranet&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Public procurement site is &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;Compranet&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Data from 2010 - 2015 ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/mexico/procurement/&#34;&gt;
@@ -10160,7 +10163,7 @@ The data on elections is not open to the public under EML standard. If this data
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Data up to 2014 posted in PDF &lt;a href=&#34;http://www.ncms.ae/en/index.html&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+    &lt;p&gt;Data up to 2014 posted in PDF &lt;a href=&#34;http://zimbabwe.africadata.org/&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;More information about national accounts available ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/isle-of-man/statistics/&#34;&gt;
@@ -10813,8 +10816,8 @@ MANNGIS shows land boundaries and land size at a national level with ...&lt;/p&g
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; in XLS. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; in XLS.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; in XLS.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; in XLS.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; in XLS.&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/bulgaria/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -14059,8 +14062,8 @@ communities have air Air Monitoring system.also the  data can ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Population&lt;/a&gt; data.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; data&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;GDP&lt;/a&gt; data (up to 2013)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; data&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;GDP&lt;/a&gt; data (up to 2013)&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/moldova/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -19036,7 +19039,7 @@ The air pollutants that ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;SwissTopo offers various geodata information on the territory through &lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;web mapping services&lt;/a&gt;, ...&lt;/p&gt;
+    &lt;p&gt;SwissTopo offers various geodata information on the territory through &lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;web mapping services&lt;/a&gt;, ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/switzerland/postcodes/&#34;&gt;
     Read more &amp;raquo;
@@ -21194,8 +21197,8 @@ The air pollutants that ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;GDP&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;population&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;GDP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;population&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/latvia/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -23790,8 +23793,8 @@ more data on ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; data&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; (only up to 2014)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; (only up to 2014)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; (only up to 2014)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; (only up to 2014)&lt;/p&gt;
 &lt;p&gt;...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/jamaica/statistics/&#34;&gt;
@@ -24443,8 +24446,8 @@ water service provider, distributes ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; up to 2013&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; up to 2015&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; up to 2015. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; up to 2015&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; up to 2015. &lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/albania/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -25095,8 +25098,8 @@ water service provider, distributes ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; data&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;GDP&lt;/a&gt; data&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; data&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;GDP&lt;/a&gt; data&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; data&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/hong-kong/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -34166,8 +34169,8 @@ but it seem the data is Measured -no pm data ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Population in &lt;a href=&#34;...&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Excel&lt;/a&gt; (relying on macro)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Unemployment&lt;/a&gt; up to 2010 in ...&lt;/p&gt;
+    &lt;p&gt;Population in &lt;a href=&#34;...&#34;&gt;PDF&lt;/a&gt; and &lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Excel&lt;/a&gt; (relying on macro)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Unemployment&lt;/a&gt; up to 2010 in ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/paraguay/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -35457,7 +35460,7 @@ but it seem the data is Measured -no pm data ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;population&lt;/a&gt; (up to 2010)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;GDP&lt;/a&gt; in PDF&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;GDP&lt;/a&gt; in PDF&lt;/p&gt;
 &lt;p&gt;The National Institute of Statistics ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/argentina/statistics/&#34;&gt;
@@ -39979,8 +39982,8 @@ because the data ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Population&lt;/a&gt; up to 2014&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; up to 2014.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;GDP&lt;/a&gt; up to 2014. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; up to 2014.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;GDP&lt;/a&gt; up to 2014. &lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/pakistan/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -40629,8 +40632,8 @@ Geocoded postal code dataset can be obtained by attribute ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;population&lt;/a&gt; in html&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;unemployment&lt;/a&gt; up to 2014 in html&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;GDP&lt;/a&gt; up to 2014 in ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;unemployment&lt;/a&gt; up to 2014 in html&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;GDP&lt;/a&gt; up to 2014 in ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/russia/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -41277,8 +41280,8 @@ Actually Russian level of electoral data openness is quite high. Since we ...&lt
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;Data on &lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; (last for 2014)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; data for 2015 (in PDF)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; data for 2015 (in PDF)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/cayman-islands/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -43215,7 +43218,7 @@ Actually Russian level of electoral data openness is quite high. Since we ...&lt
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;Annual &lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; up to 2013. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; up to 2014 (note that the dashboard seems to ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; up to 2014 (note that the dashboard seems to ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/oman/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -45147,8 +45150,8 @@ Data is online ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; up to 2015&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; up to 2010. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; up to 2011.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; up to 2010. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; up to 2011.&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/bolivia/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -50309,8 +50312,8 @@ but the raw data Air Pollution is ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; in PDF &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; in excel (up to 2010)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;GDP&lt;/a&gt; in html, pdf, ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; in excel (up to 2010)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;GDP&lt;/a&gt; in html, pdf, ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/philippines/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -52883,7 +52886,7 @@ but the raw data Air Pollution is ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;Annual &lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; up to 2014 in PDF Download.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; up to 2013 in PDF.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; up to 2013 in PDF.&lt;/p&gt;
 &lt;p&gt;No ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/guyana/statistics/&#34;&gt;
@@ -53529,8 +53532,8 @@ but the raw data Air Pollution is ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Population&lt;/a&gt; as of 2011. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;GDP&lt;/a&gt; up to 2014.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Employment status&lt;/a&gt;, but not ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;GDP&lt;/a&gt; up to 2014.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Employment status&lt;/a&gt;, but not ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/trinidad-and-tobago/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -58033,8 +58036,8 @@ Parliamentary Elections were held on Oct 26th, 2014 and the Presidential ...&lt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; data&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; data (up to 2014)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; data&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; data (up to 2014)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; data&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/panama/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -59326,8 +59329,8 @@ Their link is: ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; up to 2013.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; up to 2009.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Unemployment&lt;/a&gt; in 2013.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; up to 2009.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Unemployment&lt;/a&gt; in 2013.&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/mali/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -63190,7 +63193,7 @@ Could not find an official source for administrative boundaries.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;Some economic indicators available in a PDF &lt;a href=&#34;...&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;&lt;a href=&#34;http://cotedivoire.africadata.org&#34;&gt;cotedivoire.africadata.org&lt;/a&gt;&lt;/a&gt; has ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;&lt;a href=&#34;http://cotedivoire.africadata.org&#34;&gt;cotedivoire.africadata.org&lt;/a&gt;&lt;/a&gt; has ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/cote-divoire/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -68216,7 +68219,7 @@ Point dataset with locality is ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;This &lt;a href=&#34;...&#34;&gt;website&lt;/a&gt;  suggest that there is cadastre data for St. Vincent and the Grenadines, ...&lt;/p&gt;
+    &lt;p&gt;This &lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;website&lt;/a&gt;  suggest that there is cadastre data for St. Vincent and the Grenadines, ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/st.-Vincent-and-the-Grenadines/land/&#34;&gt;
     Read more &amp;raquo;
@@ -68325,7 +68328,7 @@ Point dataset with locality is ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;National Statistical Yearbook available for &lt;a href=&#34;...&#34;&gt;2012&lt;/a&gt; but it has limited data on GDP, ...&lt;/p&gt;
+    &lt;p&gt;National Statistical Yearbook available for &lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;2012&lt;/a&gt; but it has limited data on GDP, ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/aruba/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -68470,7 +68473,7 @@ Point dataset with locality is ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Public tenders &lt;a href=&#34;...&#34;&gt;are available&lt;/a&gt; on the Aruba government website. However, awards are not made ...&lt;/p&gt;
+    &lt;p&gt;Public tenders &lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;are available&lt;/a&gt; on the Aruba government website. However, awards are not made ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/aruba/procurement/&#34;&gt;
     Read more &amp;raquo;
@@ -68634,17 +68637,51 @@ Point dataset with locality is ...&lt;/p&gt;
                   </ul>
                 </td>
                 <td>
-                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Pollutant Emissions&lt;/strong&gt; in &lt;strong&gt;Aruba&lt;/strong&gt;" data-content="There is no data available..
+                  <ul class="availability availability-comparative" data-toggle="popover" title="&lt;strong&gt;Pollutant Emissions&lt;/strong&gt; in &lt;strong&gt;Aruba&lt;/strong&gt;" data-content="&lt;ul class=&#34;availability-popover&#34;&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-unlock-alt&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  openly licensed
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-dollar&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  free
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-keyboard-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  machine readable
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-copy&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  available in bulk
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-clock-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  up to date
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-eye&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  public
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-save&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  digital
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        It&#39;s unclear if it&#39;s  online
+    &lt;/li&gt;
+    &lt;li class=&#34;maybe&#34;&gt;&lt;i class=&#34;fa fa-file-o&#34;&gt;&lt;/i&gt;&amp;nbsp;
+        Data does not exist
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+    &lt;p&gt;Could not find air quality data for Aruba&lt;/p&gt;
+&lt;/p&gt;
+&lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/aruba/emissions/&#34;&gt;
+    Read more &amp;raquo;
+&lt;/a&gt;
 ">
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
-                    <li class="" data-content="No data">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
+                    <li class="maybe" data-content="Unsure">&nbsp;</li>
                   </ul>
                 </td>
                 <td>
@@ -68932,8 +68969,8 @@ Point dataset with locality is ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Population&lt;/a&gt; up to 2015.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;National accounts&lt;/a&gt; up to 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;Population&lt;/a&gt; up to 2015.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;National accounts&lt;/a&gt; up to 2013.&lt;/p&gt;
 &lt;p&gt;Some unemployment data ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/ethiopia/statistics/&#34;&gt;
@@ -70219,9 +70256,9 @@ No new data for later years is available.&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; up to 2015 in PDF.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;GDP&lt;/a&gt; up to 2009 in PDF.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Population&lt;/a&gt; up to ...&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;Unemployment&lt;/a&gt; up to 2015 in PDF.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;GDP&lt;/a&gt; up to 2009 in PDF.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Population&lt;/a&gt; up to ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/barbados/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -70366,7 +70403,7 @@ No new data for later years is available.&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Tenders &lt;a href=&#34;...&#34;&gt;are available&lt;/a&gt; on the Barbados Integrated Government website. Awards are not. &lt;/p&gt;
+    &lt;p&gt;Tenders &lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;are available&lt;/a&gt; on the Barbados Integrated Government website. Awards are not. &lt;/p&gt;
 &lt;p&gt;...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/barbados/procurement/&#34;&gt;
@@ -70863,7 +70900,7 @@ No new data for later years is available.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;Data is in pdf format and not machine readable.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; up to ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;Unemployment&lt;/a&gt; up to ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/bahamas/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -71009,7 +71046,7 @@ No new data for later years is available.&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Tender notices &lt;a href=&#34;...&#34;&gt;are available in PDF format and not machine readable&lt;/a&gt;. Award notices are not ...&lt;/p&gt;
+    &lt;p&gt;Tender notices &lt;a href=&#34;http://www.gov.gd/vacancies.html&#34;&gt;are available in PDF format and not machine readable&lt;/a&gt;. Award notices are not ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/bahamas/procurement/&#34;&gt;
     Read more &amp;raquo;
@@ -71506,8 +71543,8 @@ from this webnews  its seem the data  dont  ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; for 2008.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; for 2010. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;GDP&lt;/a&gt; up to 2014.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; for 2010. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;GDP&lt;/a&gt; up to 2014.&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/iraq/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -72148,7 +72185,7 @@ from this webnews  its seem the data  dont  ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;Unemployment data up to 2015 in &lt;a href=&#34;...&#34;&gt;PDF&lt;/a&gt; (up to 2012 in &lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;excel&lt;/a&gt;)&lt;/p&gt;
+    &lt;p&gt;Unemployment data up to 2015 in &lt;a href=&#34;...&#34;&gt;PDF&lt;/a&gt; (up to 2012 in &lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;excel&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;GDP data up to 2015 in ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/malaysia/statistics/&#34;&gt;
@@ -72790,8 +72827,8 @@ no Monitor  data for NOx exsit maybe the data ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;GDP&lt;/a&gt; data (in PDF)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Unemployment&lt;/a&gt; data  (PDF)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.wmo.int/pages/index_en.html&#34;&gt;Prognoz&lt;/a&gt; portal doesn&#39;t seem to ...&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Unemployment&lt;/a&gt; data  (PDF)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://statistics.bahamas.gov.bs/download/042732700.pdf&#34;&gt;Prognoz&lt;/a&gt; portal doesn&#39;t seem to ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/nigeria/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -75350,7 +75387,7 @@ The post code search service ...&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;
     &lt;p&gt;&lt;a href=&#34;...&#34;&gt;Unemployment&lt;/a&gt; up to 2013.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;Population&lt;/a&gt; up to 2008.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;Population&lt;/a&gt; up to 2008.&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/algeria/statistics/&#34;&gt;
     Read more &amp;raquo;
@@ -77564,7 +77601,7 @@ latest and archive election results on the Inter ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;The &lt;a href=&#34;...&#34;&gt;National Centre for Meteorology&lt;/a&gt; is &lt;a href=&#34;http://mot.gov.ly/site/index.php/en/2014-03-30-17-53-61/2014-03-30-17-53-61&#34;&gt;affiliated with the Ministry of Transport&lt;/a&gt;. The ...&lt;/p&gt;
+    &lt;p&gt;The &lt;a href=&#34;...&#34;&gt;National Centre for Meteorology&lt;/a&gt; is &lt;a href=&#34;http://www.cso.gov.bw/templates/cso/file/File/Web-Population_Projection-2001-2031.pdf&#34;&gt;affiliated with the Ministry of Transport&lt;/a&gt;. The ...&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/libya/weather/&#34;&gt;
     Read more &amp;raquo;
@@ -78250,7 +78287,7 @@ The data for 2013 and previous years can be fond at ...&lt;/p&gt;
     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
-    &lt;p&gt;The official website of ministry of environment (&lt;a href=&#34;http://www.cbssyr.sy/&#34;&gt;http://www.cbssyr.sy/&lt;/a&gt;)&lt;/p&gt;
+    &lt;p&gt;The official website of ministry of environment (&lt;a href=&#34;http://moen.gov.sy/&#34;&gt;http://moen.gov.sy/&lt;/a&gt;)&lt;/p&gt;
 &lt;/p&gt;
 &lt;a class=&#34;btn btn-primary&#34; href=&#34;/place/syria/emissions/&#34;&gt;
     Read more &amp;raquo;

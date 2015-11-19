@@ -28,6 +28,14 @@
 </head>
 <body class="place">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -114,10 +117,10 @@
     <div class="row">
         <div class="col-md-6">
             <h1>
-                <a href="/place/united-states/" title="See more data on United States in the Open Data Index">United States</a>                <span class="place-openness" data-score="66">66% open</span>
+                <a href="/place/united-states/" title="See more data on United States in the Open Data Index">United States</a>                <span class="place-openness" data-score="64">64% open</span>
             </h1>
             <div class="col-md-12 place-rank statistics">
-                <span class="">United States is ranked #9 in the 2015 Index</span>
+                <span class="">United States is ranked #10 in the 2015 Index</span>
             </div>
             <div class="row relative">
                 <div class="col-md-2 change"><i class="fa fa-arrow-down"></i></div>
@@ -735,6 +738,139 @@ XML              </td>
                   1
               </td>
               <td>
+                  <a href="/place/united-states/emissions/" title="Pollutant Emissions in United States">Pollutant Emissions</a>
+                  <span class="dataset-context" data-toggle="popover" title="Pollutant Emissions" data-content="<p>Aggregate data about the emission of air pollutants especially those potentially harmful to human health (although it is not a requirement to include information on greenhouse gas emissions). Aggregate means national-level or available for at least three major cities. In order to satisfy the minimum requirements for this category, data must be available for the following pollutants and meet the following minimum criteria:</p>
+
+<ul>
+<li>Particulate matter (PM) Levels</li>
+<li>Sulphur oxides (SOx)</li>
+<li>Nitrogen oxides (NOx)</li>
+<li>Volatile organic compounds (VOCs)</li>
+<li>Carbon monoxide (CO)</li>
+<li>Updated on at least once a week.</li>
+<li>Measured either at a national level by regions or at leasts in 3 big cities.</li>
+</ul>"><i class="fa fa-info-circle"></i></span>
+              </td>
+              <td class="breakdown">
+                  <ul class="availability availability-slice">
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
+
+&lt;p&gt;Licences are commonly found in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the web page footer&lt;/li&gt;
+&lt;li&gt;a link to Terms &amp;amp; Conditions&lt;/li&gt;
+&lt;li&gt;the About section&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some licences may allow re-use and redistribution but have not been assessed as conformant with the Open Definition. In this case, seek feedback on the Open Data Index discussion forum&lt;/p&gt;"><i class="fa fa-unlock-alt"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available for free? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The data is free if you don’t have to pay for it.&lt;/p&gt;"><i class="fa fa-dollar"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data machine readable? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;All files are digital, but not all can be processed or parsed easily by a computer. In order to answer this question, you would need to look at the file type of the dataset. As a rule of thumb the following file types are machine readable:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XLS&lt;/li&gt;
+&lt;li&gt;CSV&lt;/li&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;XML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following formats are NOT machine readable:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;DOC&lt;/li&gt;
+&lt;li&gt;JIF&lt;/li&gt;
+&lt;li&gt;JPEG&lt;/li&gt;
+&lt;li&gt;PPT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have a different file type and you don’t know if it’s machine readable or not, ask in the Open Data Census forum&lt;/p&gt;"><i class="fa fa-keyboard-o"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
+
+&lt;p&gt;For example, if restricted to querying a web form and retrieving a few results at a time from a very large database.&lt;/p&gt;"><i class="fa fa-copy"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data provided on a timely and up to date basis? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Is the data current for the census year? You can determine or estimate when the data was last updated and its update frequency by reviewing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the metadata displayed for the data in an open data portal or web page&lt;/li&gt;
+&lt;li&gt;the dataset title or filename e.g. Budget 2013-14 or Election_4July2015.csv&lt;/li&gt;
+&lt;li&gt;metadata tags embedded in the web page that contains the data&lt;/li&gt;
+&lt;li&gt;date values within the data to find the most recent date value&lt;/li&gt;
+&lt;li&gt;the timestamp on the data file (although this may not be accurate)&lt;/li&gt;
+&lt;li&gt;Some data is not updated on a regular basis. e.g. Pollutant emissions may be updated daily - while postal codes may not change for many years. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may need to use your judgement to determine if the data is timely and up to date. Document your rationale in the comments section.&lt;/p&gt;
+
+&lt;p&gt;If you cannot determine a date, answer, &amp;quot;NO&amp;quot; i.e. the data is not timely or up-to-date.&lt;/p&gt;"><i class="fa fa-clock-o"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Publicly available? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Can the data be accessed by the public without restrictions? Data is considered publicly available when:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It can be accessed online without the need for a password or permissions.&lt;/li&gt;
+&lt;li&gt;If the data is in paper form, can be accessed by the public, and there is no restrictions on the number of photocopies that can be made.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Data is &lt;strong&gt;NOT&lt;/strong&gt; publicly available when:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is only made available after making a request.&lt;/li&gt;
+&lt;li&gt;It was availiable because of FOIA. &lt;/li&gt;
+&lt;li&gt;It can only be accessed by government officials.&lt;/li&gt;
+&lt;/ul&gt;"><i class="fa fa-eye"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is data in digital form? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data can be in a digital format, but not accessible online. For example: A country budget can be stored on a spreadsheet or otherwise on a private government network, but not on the Internet. This means that the data is digital, but not publicly available. If you know that the data is digital somewhere inside the government (e.g. a government official tells you so), then you should answer “YES” to this question and note in the comment section how you discovered the data is in digital form.&lt;/p&gt;"><i class="fa fa-save"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available online? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is online if it can be accessed via the Internet (e.g. a website or open data portal). If the data has been emailed to you but is not accessible via the Internet, it is not considered to be available online.&lt;/p&gt;"><i class="fa fa-download"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Does the data exist? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data must come from an official resource either issued directly by the government or by a third party officially representing the government. Data offered by companies, citizen initiatives or any non-governmental organisation do not count for the Index.&lt;/p&gt;
+
+&lt;p&gt;If the government has given the right to publish the data to third parties, a submission with a link a to third party site is allowed. The third-party site must explicitly state that the data has been commissioned by the government. Check if the organization has an agreement with the government to be the official source and make a note in the comment section.&lt;/p&gt;"><i class="fa fa-file-o"></i>&nbsp;</li>
+                  </ul>
+              </td>
+              <td>
+<a href="http://www3.epa.gov/airdata/">http://www3.epa.gov/airdata/</a>              </td>
+              <td>
+CSV              </td>
+              <td class="info-expander" title="Click for full details">
+                  <a data-toggle="collapse" data-target="#detail-emissions" class="collapsed">
+                    <i class="fa fa-info-circle"></i>
+                  </a>
+              </td>
+              <td class="previous-results">
+                  <span class="rank rank-previous">#13</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
+              </td>
+              <td class="score" data-score="100">
+                <span>100%</span>
+              </td>
+            </tr>
+
+            <tr id="detail-emissions" class="details collapse">
+                <td><span style="visibility: hidden">1</span></td>
+                <td colspan="7">
+<span style="visibility: hidden;">Pollutant Emissions</span>
+                    <br />
+<span><strong>URL:</strong> <a href="http://www3.epa.gov/airdata/" title="http://www3.epa.gov/airdata/">http://www3.epa.gov/airdata/</a></span>
+                    <br />
+<span><strong>Format:</strong> CSV</span>
+                    <br /><br />
+                    <p>Another site of the epa only for pm vale
+<a href="http://www3.epa.gov/airtrends/pm.html">http://www3.epa.gov/airtrends/pm.html</a>
+i didnt see VOCs  measurement  but i think it shold be 
+in NATTS (National Air Toxics Trends Stations) that dont look to work in this time</p>
+<p>On open licenses: 
+<a href="https://wiki.creativecommons.org/wiki/Government_use_of_Creative_Commons#Federal">https://wiki.creativecommons.org/wiki/Government_use_of_Creative_Commons#Federal</a>
+Note: "Works by the US federal government are automatically part of the public domain in the US"</p>
+                    <br />
+                </td>
+            </tr>
+
+
+
+
+
+
+          <tr data-rank="1" data-score="100" data-place="us">
+              <td class="rank">
+                  1
+              </td>
+              <td>
                   <a href="/place/united-states/budget/" title="Government Budget in United States">Government Budget</a>
                   <span class="dataset-context" data-toggle="popover" title="Government Budget" data-content="<p>National government budget at a high level. This category is looking at budgets, or the planned government expenditure for the upcoming year, and not the actual expenditure. To satisfy this category, the following minimum criteria must be met:</p>
 
@@ -1139,265 +1275,6 @@ XML              </td>
 
 
 
-          <tr data-rank="6" data-score="70" data-place="us">
-              <td class="rank">
-                  6
-              </td>
-              <td>
-                  <a href="/place/united-states/emissions/" title="Pollutant Emissions in United States">Pollutant Emissions</a>
-                  <span class="dataset-context" data-toggle="popover" title="Pollutant Emissions" data-content="<p>Aggregate data about the emission of air pollutants especially those potentially harmful to human health (although it is not a requirement to include information on greenhouse gas emissions). Aggregate means national-level or available for at least three major cities. In order to satisfy the minimum requirements for this category, data must be available for the following pollutants and meet the following minimum criteria:</p>
-
-<ul>
-<li>Particulate matter (PM) Levels</li>
-<li>Sulphur oxides (SOx)</li>
-<li>Nitrogen oxides (NOx)</li>
-<li>Volatile organic compounds (VOCs)</li>
-<li>Carbon monoxide (CO)</li>
-<li>Updated on at least once a week.</li>
-<li>Measured either at a national level by regions or at leasts in 3 big cities.</li>
-</ul>"><i class="fa fa-info-circle"></i></span>
-              </td>
-              <td class="breakdown">
-                  <ul class="availability availability-slice">
-                      <li class="maybe" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
-
-&lt;p&gt;Licences are commonly found in:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the web page footer&lt;/li&gt;
-&lt;li&gt;a link to Terms &amp;amp; Conditions&lt;/li&gt;
-&lt;li&gt;the About section&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some licences may allow re-use and redistribution but have not been assessed as conformant with the Open Definition. In this case, seek feedback on the Open Data Index discussion forum&lt;/p&gt;"><i class="fa fa-unlock-alt"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available for free? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The data is free if you don’t have to pay for it.&lt;/p&gt;"><i class="fa fa-dollar"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data machine readable? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;All files are digital, but not all can be processed or parsed easily by a computer. In order to answer this question, you would need to look at the file type of the dataset. As a rule of thumb the following file types are machine readable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;XLS&lt;/li&gt;
-&lt;li&gt;CSV&lt;/li&gt;
-&lt;li&gt;JSON&lt;/li&gt;
-&lt;li&gt;XML&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following formats are NOT machine readable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML&lt;/li&gt;
-&lt;li&gt;PDF&lt;/li&gt;
-&lt;li&gt;DOC&lt;/li&gt;
-&lt;li&gt;JIF&lt;/li&gt;
-&lt;li&gt;JPEG&lt;/li&gt;
-&lt;li&gt;PPT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have a different file type and you don’t know if it’s machine readable or not, ask in the Open Data Census forum&lt;/p&gt;"><i class="fa fa-keyboard-o"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
-
-&lt;p&gt;For example, if restricted to querying a web form and retrieving a few results at a time from a very large database.&lt;/p&gt;"><i class="fa fa-copy"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data provided on a timely and up to date basis? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Is the data current for the census year? You can determine or estimate when the data was last updated and its update frequency by reviewing:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the metadata displayed for the data in an open data portal or web page&lt;/li&gt;
-&lt;li&gt;the dataset title or filename e.g. Budget 2013-14 or Election_4July2015.csv&lt;/li&gt;
-&lt;li&gt;metadata tags embedded in the web page that contains the data&lt;/li&gt;
-&lt;li&gt;date values within the data to find the most recent date value&lt;/li&gt;
-&lt;li&gt;the timestamp on the data file (although this may not be accurate)&lt;/li&gt;
-&lt;li&gt;Some data is not updated on a regular basis. e.g. Pollutant emissions may be updated daily - while postal codes may not change for many years. &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You may need to use your judgement to determine if the data is timely and up to date. Document your rationale in the comments section.&lt;/p&gt;
-
-&lt;p&gt;If you cannot determine a date, answer, &amp;quot;NO&amp;quot; i.e. the data is not timely or up-to-date.&lt;/p&gt;"><i class="fa fa-clock-o"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Publicly available? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Can the data be accessed by the public without restrictions? Data is considered publicly available when:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It can be accessed online without the need for a password or permissions.&lt;/li&gt;
-&lt;li&gt;If the data is in paper form, can be accessed by the public, and there is no restrictions on the number of photocopies that can be made.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data is &lt;strong&gt;NOT&lt;/strong&gt; publicly available when:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It is only made available after making a request.&lt;/li&gt;
-&lt;li&gt;It was availiable because of FOIA. &lt;/li&gt;
-&lt;li&gt;It can only be accessed by government officials.&lt;/li&gt;
-&lt;/ul&gt;"><i class="fa fa-eye"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is data in digital form? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data can be in a digital format, but not accessible online. For example: A country budget can be stored on a spreadsheet or otherwise on a private government network, but not on the Internet. This means that the data is digital, but not publicly available. If you know that the data is digital somewhere inside the government (e.g. a government official tells you so), then you should answer “YES” to this question and note in the comment section how you discovered the data is in digital form.&lt;/p&gt;"><i class="fa fa-save"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available online? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is online if it can be accessed via the Internet (e.g. a website or open data portal). If the data has been emailed to you but is not accessible via the Internet, it is not considered to be available online.&lt;/p&gt;"><i class="fa fa-download"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Does the data exist? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data must come from an official resource either issued directly by the government or by a third party officially representing the government. Data offered by companies, citizen initiatives or any non-governmental organisation do not count for the Index.&lt;/p&gt;
-
-&lt;p&gt;If the government has given the right to publish the data to third parties, a submission with a link a to third party site is allowed. The third-party site must explicitly state that the data has been commissioned by the government. Check if the organization has an agreement with the government to be the official source and make a note in the comment section.&lt;/p&gt;"><i class="fa fa-file-o"></i>&nbsp;</li>
-                  </ul>
-              </td>
-              <td>
-<a href="http://www3.epa.gov/airdata/">http://www3.epa.gov/airdata/</a>              </td>
-              <td>
-CSV              </td>
-              <td class="info-expander" title="Click for full details">
-                  <a data-toggle="collapse" data-target="#detail-emissions" class="collapsed">
-                    <i class="fa fa-info-circle"></i>
-                  </a>
-              </td>
-              <td class="previous-results">
-                  <span class="rank rank-previous">#13</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
-              </td>
-              <td class="score" data-score="70">
-                <span>70%</span>
-              </td>
-            </tr>
-
-            <tr id="detail-emissions" class="details collapse">
-                <td><span style="visibility: hidden">6</span></td>
-                <td colspan="7">
-<span style="visibility: hidden;">Pollutant Emissions</span>
-                    <br />
-<span><strong>URL:</strong> <a href="http://www3.epa.gov/airdata/" title="http://www3.epa.gov/airdata/">http://www3.epa.gov/airdata/</a></span>
-                    <br />
-<span><strong>Format:</strong> CSV</span>
-                    <br /><br />
-                    <p>Another site of the epa only for pm vale
-<a href="http://www3.epa.gov/airtrends/pm.html">http://www3.epa.gov/airtrends/pm.html</a>
-i didnt see VOCs  measurement  but i think it shold be 
-in NATTS (National Air Toxics Trends Stations) that dont look to work in this time</p>
-                    <br />
-                </td>
-            </tr>
-
-
-
-
-
-
-          <tr data-rank="38" data-score="60" data-place="us">
-              <td class="rank">
-                  38
-              </td>
-              <td>
-                  <a href="/place/united-states/elections/" title="Election Results in United States">Election Results</a>
-                  <span class="dataset-context" data-toggle="popover" title="Election Results" data-content="<p>This data category requires results by constituency / district for all major national electoral contests. To satisfy this category, the following minimum criteria must be met:</p>
-
-<ul>
-<li>Result for all major electoral contests</li>
-<li>Number of registered votes</li>
-<li>Number of invalid votes</li>
-<li>Number of spoiled ballots</li>
-<li>All data should be reported at the level of the polling station</li>
-</ul>"><i class="fa fa-info-circle"></i></span>
-              </td>
-              <td class="breakdown">
-                  <ul class="availability availability-slice">
-                      <li class="maybe" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
-
-&lt;p&gt;Licences are commonly found in:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the web page footer&lt;/li&gt;
-&lt;li&gt;a link to Terms &amp;amp; Conditions&lt;/li&gt;
-&lt;li&gt;the About section&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some licences may allow re-use and redistribution but have not been assessed as conformant with the Open Definition. In this case, seek feedback on the Open Data Index discussion forum&lt;/p&gt;"><i class="fa fa-unlock-alt"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available for free? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The data is free if you don’t have to pay for it.&lt;/p&gt;"><i class="fa fa-dollar"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data machine readable? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;All files are digital, but not all can be processed or parsed easily by a computer. In order to answer this question, you would need to look at the file type of the dataset. As a rule of thumb the following file types are machine readable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;XLS&lt;/li&gt;
-&lt;li&gt;CSV&lt;/li&gt;
-&lt;li&gt;JSON&lt;/li&gt;
-&lt;li&gt;XML&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following formats are NOT machine readable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HTML&lt;/li&gt;
-&lt;li&gt;PDF&lt;/li&gt;
-&lt;li&gt;DOC&lt;/li&gt;
-&lt;li&gt;JIF&lt;/li&gt;
-&lt;li&gt;JPEG&lt;/li&gt;
-&lt;li&gt;PPT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have a different file type and you don’t know if it’s machine readable or not, ask in the Open Data Census forum&lt;/p&gt;"><i class="fa fa-keyboard-o"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
-
-&lt;p&gt;For example, if restricted to querying a web form and retrieving a few results at a time from a very large database.&lt;/p&gt;"><i class="fa fa-copy"></i>&nbsp;</li>
-                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data provided on a timely and up to date basis? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Is the data current for the census year? You can determine or estimate when the data was last updated and its update frequency by reviewing:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the metadata displayed for the data in an open data portal or web page&lt;/li&gt;
-&lt;li&gt;the dataset title or filename e.g. Budget 2013-14 or Election_4July2015.csv&lt;/li&gt;
-&lt;li&gt;metadata tags embedded in the web page that contains the data&lt;/li&gt;
-&lt;li&gt;date values within the data to find the most recent date value&lt;/li&gt;
-&lt;li&gt;the timestamp on the data file (although this may not be accurate)&lt;/li&gt;
-&lt;li&gt;Some data is not updated on a regular basis. e.g. Pollutant emissions may be updated daily - while postal codes may not change for many years. &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You may need to use your judgement to determine if the data is timely and up to date. Document your rationale in the comments section.&lt;/p&gt;
-
-&lt;p&gt;If you cannot determine a date, answer, &amp;quot;NO&amp;quot; i.e. the data is not timely or up-to-date.&lt;/p&gt;"><i class="fa fa-clock-o"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Publicly available? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Can the data be accessed by the public without restrictions? Data is considered publicly available when:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It can be accessed online without the need for a password or permissions.&lt;/li&gt;
-&lt;li&gt;If the data is in paper form, can be accessed by the public, and there is no restrictions on the number of photocopies that can be made.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Data is &lt;strong&gt;NOT&lt;/strong&gt; publicly available when:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It is only made available after making a request.&lt;/li&gt;
-&lt;li&gt;It was availiable because of FOIA. &lt;/li&gt;
-&lt;li&gt;It can only be accessed by government officials.&lt;/li&gt;
-&lt;/ul&gt;"><i class="fa fa-eye"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is data in digital form? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data can be in a digital format, but not accessible online. For example: A country budget can be stored on a spreadsheet or otherwise on a private government network, but not on the Internet. This means that the data is digital, but not publicly available. If you know that the data is digital somewhere inside the government (e.g. a government official tells you so), then you should answer “YES” to this question and note in the comment section how you discovered the data is in digital form.&lt;/p&gt;"><i class="fa fa-save"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available online? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is online if it can be accessed via the Internet (e.g. a website or open data portal). If the data has been emailed to you but is not accessible via the Internet, it is not considered to be available online.&lt;/p&gt;"><i class="fa fa-download"></i>&nbsp;</li>
-                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Does the data exist? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data must come from an official resource either issued directly by the government or by a third party officially representing the government. Data offered by companies, citizen initiatives or any non-governmental organisation do not count for the Index.&lt;/p&gt;
-
-&lt;p&gt;If the government has given the right to publish the data to third parties, a submission with a link a to third party site is allowed. The third-party site must explicitly state that the data has been commissioned by the government. Check if the organization has an agreement with the government to be the official source and make a note in the comment section.&lt;/p&gt;"><i class="fa fa-file-o"></i>&nbsp;</li>
-                  </ul>
-              </td>
-              <td>
-<a href="http://www.fec.gov/pubrec/electionresults.shtml">http://www.fec.gov/pubrec/elec...</a>              </td>
-              <td>
-XLS, PDF              </td>
-              <td class="info-expander" title="Click for full details">
-                  <a data-toggle="collapse" data-target="#detail-elections" class="collapsed">
-                    <i class="fa fa-info-circle"></i>
-                  </a>
-              </td>
-              <td class="previous-results">
-                  <span class="rank rank-previous">#22</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
-              </td>
-              <td class="score" data-score="60">
-                <span>60%</span>
-              </td>
-            </tr>
-
-            <tr id="detail-elections" class="details collapse">
-                <td><span style="visibility: hidden">38</span></td>
-                <td colspan="7">
-<span style="visibility: hidden;">Election Results</span>
-                    <br />
-<span><strong>URL:</strong> <a href="http://www.fec.gov/pubrec/electionresults.shtml" title="http://www.fec.gov/pubrec/electionresults.shtml">http://www.fec.gov/pubrec/electionresults.shtml</a></span>
-                    <br />
-<span><strong>Format:</strong> XLS, PDF</span>
-                    <br /><br />
-                    <p>Data prior to 2004 is not machine readable although recent results are; marked as "machine readable" as this is the present data and direction of travel. Numbers are for "primary, runoff and general election results for the U.S. Senate, the U.S. House of Representatives and, when applicable, U.S. President." They are "obtained from each state’s election office and other official sources." Raw data for the 2000, 2004, and 2008, 2012 Presidential General Elections are also available through the National Atlas. </p>
-<p>For elections on the state, local and territory level, please see the Combined Federal/State Disclosure and Election Directory.  It provides contact information and links to the elections offices of the 50 states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, and the U.S. Virgin Islands.</p>
-<p>Also, see the efforts to standardize local government election data being conducted by: <a href="http://openelections.net/">http://openelections.net/</a></p>
-<p><strong>There are restrictions on the commercial re-use of the data</strong> "Reports and statements filed by political committees may be inspected and copied by anyone. The names and addresses of individual contributors, however, may not be sold or used for any commercial purpose or to solicit any type of contribution or donation, such as political or charitable contributions. 2 U.S.C. 438(a)(4); 11 CFR 104.15. This restriction applies to Federal reports and statements filed in Washington, as well as in
-each state. Any person who violates this restriction is subject to the penalties of 2 U.S.C. 437g" <a href="http://www.fec.gov/pages/brochures/sale_and_use_brochure.pdf">http://www.fec.gov/pages/brochures/sale_and_use_brochure.pdf</a></p>
-                    <br />
-                </td>
-            </tr>
-
-
-
-
-
-
           <tr data-rank="17" data-score="50" data-place="us">
               <td class="rank">
                   17
@@ -1768,6 +1645,130 @@ n/a              </td>
 
 
 
+          <tr data-rank="83" data-score="5" data-place="us">
+              <td class="rank">
+                  83
+              </td>
+              <td>
+                  <a href="/place/united-states/elections/" title="Election Results in United States">Election Results</a>
+                  <span class="dataset-context" data-toggle="popover" title="Election Results" data-content="<p>This data category requires results by constituency / district for all major national electoral contests. To satisfy this category, the following minimum criteria must be met:</p>
+
+<ul>
+<li>Result for all major electoral contests</li>
+<li>Number of registered votes</li>
+<li>Number of invalid votes</li>
+<li>Number of spoiled ballots</li>
+<li>All data should be reported at the level of the polling station</li>
+</ul>"><i class="fa fa-info-circle"></i></span>
+              </td>
+              <td class="breakdown">
+                  <ul class="availability availability-slice">
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Openly licensed? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The licence must comply with the Open Definition which allows data to be freely used, reused and redistributed. The Open Definition provides a list of conformant licences. If the data uses one of these licences, it is openly licensed.&lt;/p&gt;
+
+&lt;p&gt;Licences are commonly found in:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the web page footer&lt;/li&gt;
+&lt;li&gt;a link to Terms &amp;amp; Conditions&lt;/li&gt;
+&lt;li&gt;the About section&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some licences may allow re-use and redistribution but have not been assessed as conformant with the Open Definition. In this case, seek feedback on the Open Data Index discussion forum&lt;/p&gt;"><i class="fa fa-unlock-alt"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available for free? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;The data is free if you don’t have to pay for it.&lt;/p&gt;"><i class="fa fa-dollar"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data machine readable? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;All files are digital, but not all can be processed or parsed easily by a computer. In order to answer this question, you would need to look at the file type of the dataset. As a rule of thumb the following file types are machine readable:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;XLS&lt;/li&gt;
+&lt;li&gt;CSV&lt;/li&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;XML&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following formats are NOT machine readable:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;DOC&lt;/li&gt;
+&lt;li&gt;JIF&lt;/li&gt;
+&lt;li&gt;JPEG&lt;/li&gt;
+&lt;li&gt;PPT&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have a different file type and you don’t know if it’s machine readable or not, ask in the Open Data Census forum&lt;/p&gt;"><i class="fa fa-keyboard-o"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
+
+&lt;p&gt;For example, if restricted to querying a web form and retrieving a few results at a time from a very large database.&lt;/p&gt;"><i class="fa fa-copy"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data provided on a timely and up to date basis? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Is the data current for the census year? You can determine or estimate when the data was last updated and its update frequency by reviewing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the metadata displayed for the data in an open data portal or web page&lt;/li&gt;
+&lt;li&gt;the dataset title or filename e.g. Budget 2013-14 or Election_4July2015.csv&lt;/li&gt;
+&lt;li&gt;metadata tags embedded in the web page that contains the data&lt;/li&gt;
+&lt;li&gt;date values within the data to find the most recent date value&lt;/li&gt;
+&lt;li&gt;the timestamp on the data file (although this may not be accurate)&lt;/li&gt;
+&lt;li&gt;Some data is not updated on a regular basis. e.g. Pollutant emissions may be updated daily - while postal codes may not change for many years. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You may need to use your judgement to determine if the data is timely and up to date. Document your rationale in the comments section.&lt;/p&gt;
+
+&lt;p&gt;If you cannot determine a date, answer, &amp;quot;NO&amp;quot; i.e. the data is not timely or up-to-date.&lt;/p&gt;"><i class="fa fa-clock-o"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Publicly available? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Can the data be accessed by the public without restrictions? Data is considered publicly available when:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It can be accessed online without the need for a password or permissions.&lt;/li&gt;
+&lt;li&gt;If the data is in paper form, can be accessed by the public, and there is no restrictions on the number of photocopies that can be made.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Data is &lt;strong&gt;NOT&lt;/strong&gt; publicly available when:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is only made available after making a request.&lt;/li&gt;
+&lt;li&gt;It was availiable because of FOIA. &lt;/li&gt;
+&lt;li&gt;It can only be accessed by government officials.&lt;/li&gt;
+&lt;/ul&gt;"><i class="fa fa-eye"></i>&nbsp;</li>
+                      <li class="maybe" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is data in digital form? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data can be in a digital format, but not accessible online. For example: A country budget can be stored on a spreadsheet or otherwise on a private government network, but not on the Internet. This means that the data is digital, but not publicly available. If you know that the data is digital somewhere inside the government (e.g. a government official tells you so), then you should answer “YES” to this question and note in the comment section how you discovered the data is in digital form.&lt;/p&gt;"><i class="fa fa-save"></i>&nbsp;</li>
+                      <li class="no" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available online? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is online if it can be accessed via the Internet (e.g. a website or open data portal). If the data has been emailed to you but is not accessible via the Internet, it is not considered to be available online.&lt;/p&gt;"><i class="fa fa-download"></i>&nbsp;</li>
+                      <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Does the data exist? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data must come from an official resource either issued directly by the government or by a third party officially representing the government. Data offered by companies, citizen initiatives or any non-governmental organisation do not count for the Index.&lt;/p&gt;
+
+&lt;p&gt;If the government has given the right to publish the data to third parties, a submission with a link a to third party site is allowed. The third-party site must explicitly state that the data has been commissioned by the government. Check if the organization has an agreement with the government to be the official source and make a note in the comment section.&lt;/p&gt;"><i class="fa fa-file-o"></i>&nbsp;</li>
+                  </ul>
+              </td>
+              <td>
+n/a              </td>
+              <td>
+n/a              </td>
+              <td class="info-expander" title="Click for full details">
+                  <a data-toggle="collapse" data-target="#detail-elections" class="collapsed">
+                    <i class="fa fa-info-circle"></i>
+                  </a>
+              </td>
+              <td class="previous-results">
+                  <span class="rank rank-previous">#22</span>&nbsp;&nbsp;<span class="score score-previous" data-score="70">70%</span>
+              </td>
+              <td class="score" data-score="5">
+                <span>5%</span>
+              </td>
+            </tr>
+
+            <tr id="detail-elections" class="details collapse">
+                <td><span style="visibility: hidden">83</span></td>
+                <td colspan="7">
+<span style="visibility: hidden;">Election Results</span>
+                    <br />
+                    <br /><br />
+                    <p>Data prior to 2004 is not machine readable although recent results are; marked as "machine readable" as this is the present data and direction of travel. Numbers are for "primary, runoff and general election results for the U.S. Senate, the U.S. House of Representatives and, when applicable, U.S. President." They are "obtained from each state’s election office and other official sources." Raw data for the 2000, 2004, and 2008, 2012 Presidential General Elections are also available through the National Atlas. </p>
+<p>For elections on the state, local and territory level, please see the Combined Federal/State Disclosure and Election Directory.  It provides contact information and links to the elections offices of the 50 states, the District of Columbia, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, and the U.S. Virgin Islands.</p>
+<p>Also, see the efforts to standardize local government election data being conducted by: <a href="http://openelections.net/">http://openelections.net/</a></p>
+                    <br />
+                </td>
+            </tr>
+
+
+
+
+
+
           <tr data-rank="85" data-score="0" data-place="us">
               <td class="rank">
                   85
@@ -1907,7 +1908,6 @@ n/a              </td>
           <li>Zach Christensen</li>
           <li>anonymous</li>
           <li>Nisha Thompson</li>
-          <li>yar michl</li>
           <li>Rebecca Sentance</li>
           <li>Tryggvi Björgvinsson</li>
           <li>Codrina Maria Ilie</li>
@@ -1920,7 +1920,6 @@ n/a              </td>
           <li>Rufus Pollock</li>
           <li>Blessing Jee</li>
           <li>Mor Rubinstein</li>
-          <li>Izzy V</li>
           <li>Rebecca Williams - XFB</li>
           <li>anonymous</li>
           <li>Tracey P. Lauriault</li>

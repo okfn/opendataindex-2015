@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -311,7 +314,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>A dataset with information on the region, district and municipality of a ZIP code is available on the government's open data portal, but this dataset does not contain geo-coordinates, <a href="https://www.data.gv.at/datensatz/?id=b9ba4b86-f04c-4a0e-96c4-188063e2668f">https://www.data.gv.at/datensatz/?id=b9ba4b86-f04c-4a0e-96c4-188063e2668f</a>. No dataset that meets the description of this survey appears to be publicly available at this point. 
 <em>Further observation:</em> The Statistical Agency Austria holds related geospatial data. Apparently, data can be purchased from the agency. Data is available here on OpenGeoDB: <a href="http://www.datendieter.de/item/Postleitzahlen_Oesterreich">http://www.datendieter.de/item/Postleitzahlen_Oesterreich</a>.
 On the webpage of the Austrian Postal Service user can search for a postal code, but no geospatial information is provided. That geospatial data exist can be verified here: <a href="http://de.wikipedia.org/wiki/Postleitzahl_%28%C3%96sterreich%29">http://de.wikipedia.org/wiki/Postleitzahl_%28%C3%96sterreich%29</a></p>

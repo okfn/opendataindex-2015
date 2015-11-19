@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -304,7 +307,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Existen datos de Elecciones Generales para los años 2013, 2008 y 2003, Elecciones Municipales para los años 2001 y 2006.</p>
 <p>Contenido: Los datos no están completos, existen columnas en los archivos CSV que no tienen valor, necesita un nivel de especifidad mayor, se puede obtener cantidad de votos por; departamento, distrito y local de votación para los diferentes cargos, pero no se especifica cantidad de votos por mesas.</p>
 <p>La certificados de votación (Elecciones Generales) para el año 2013 están disponibles en <a href="http://tsje.gov.py/e2013/trep/consulta-certificados.html">http://tsje.gov.py/e2013/trep/consulta-certificados.html</a> (accedido 29/Agosto/2014). Se puede obtener por departamento, distrito, zona, local y mesa, estos certificados están en formato JPG, también existe una tabla HTML que refleja los datos que aparecen en los mismos. Se especifica votos obtenidos por lista, votos nulos y votos en blanco. Ofrece opción de descargar certificado en formato PDF.</p>

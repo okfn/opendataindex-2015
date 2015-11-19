@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -311,7 +314,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>The data is still not officially available as Open Data. The site <a href="http://adressesok.posten.no/en/postal_codes/search?q=1350">http://adressesok.posten.no/en/postal_codes/search?q=1350</a> allows web queries postcode lookup to get the name of the locality. This is HTML only with a restrictive licence at <a href="http://adressesok.posten.no/en/pages/usage_terms">http://adressesok.posten.no/en/pages/usage_terms</a> and only one postcode can be queried at a time.</p>
 <p>You can download the dataset in bulk from <a href="http://www.bring.no/hele-bring/produkter-og-tjenester/brev-og-postreklame/andre-tjenester/postnummertabeller">http://www.bring.no/hele-bring/produkter-og-tjenester/brev-og-postreklame/andre-tjenester/postnummertabeller</a> in XLSX-format. No lat/long is provided only ZIP-code, placename, municipalitycode, municipalityname and category.</p>
 <p><a href="http://data.kartverket.no/download/content/stedsnavn-ssr-wgs84-geojson">http://data.kartverket.no/download/content/stedsnavn-ssr-wgs84-geojson</a> could be used to obtain a rough lat/long of the postcode. However, as suggested by the original submitter, it's been gathered and made available by a private citizen, at <a href="http://www.erikbolstad.no/geo/noreg/postnummer/">http://www.erikbolstad.no/geo/noreg/postnummer/</a>. However, the privately gathered data is has some quality/accuracy issues, so it's a good question as to whether it can be considered complete. (note: moved link to comments area in line with editorial instructions.)</p>

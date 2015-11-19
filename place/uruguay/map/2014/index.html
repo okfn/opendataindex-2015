@@ -28,6 +28,14 @@
 </head>
 <body class="place_dataset">
 
+<div class="fixed-ok-panel">
+    <div id="ok-panel" class="closed">
+        <iframe src="http://assets.okfn.org/themes/okfn/okf-panel.html" scrolling="no"></iframe>
+    </div>
+
+    <a class="ok-ribbon"><img src="http://okfnlabs.org/ok-panel/assets/images/ok-ribbon.png" alt="Open Knowledge"></a>
+</div>
+
 <header id="header">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -42,18 +50,13 @@
                     </button>
                     <div class="logo">
                         <a href="/">
-                            <img src="/static/images/logo.png">
+                            <img src="/static/images/logo2.png">
                             <span>Global<br/>Open Data Index</span>
                         </a>
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <div class="logo2 nav navbar-nav navbar-right hidden-xs hidden-sm">
-                        <a class="ok-ribbon" href="https://okfn.org/">
-                            <img src="/static/images/okfn.png" alt="Open Knowledge">
-                        </a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav" style="margin-right: 132px;">
                         <li>
                             <a href="/place/" title="About the Open Data Index project">
                                 Places
@@ -300,7 +303,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4>Details</h4>
+            <h4><strong>Details</strong></h4>
             <p>Infraestrutura de Datos Espaciales (IDEuy) is responsible for aggregating information on geospacial data produced by different government agencies. On IDEuy website users only find information about which government agencies provide geospacial data. There is no easy download provided. Scales are mostly not specified. There is also a catalog on metadata: <a href="http://ide.uy/geonetwork/srv/es/main.home">http://ide.uy/geonetwork/srv/es/main.home</a> - it provides data on which geospacial information is available. Nonetheless it is not the required dataset but only an inventory of geospacial data. The terms of use of IDEuy (<a href="http://ide.uy/inicio/condiciones-de-uso/">http://ide.uy/inicio/condiciones-de-uso/</a>) make no reference to geospatial data.
 A map of 1:50.000 or 1:20.000 can be found for instance on the website of the Geographic Service of the Army of Uruguay (<a href="http://www.sgm.gub.uy/geoportal/index.php/mapas/descargas">http://www.sgm.gub.uy/geoportal/index.php/mapas/descargas</a>), there data can be downloaded as PDF (non machine readable format). Also a WMS download is provided and a visualization tool (<a href="http://visualizador.sgm.gub.uy/map.phtml">http://visualizador.sgm.gub.uy/map.phtml</a>) where different layers can be selected is provided. Data can't be downloaded for the whole country but only one tile at once.</p>
         </div>
