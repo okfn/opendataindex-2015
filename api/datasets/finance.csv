@@ -18,7 +18,7 @@ procurement,Procurement tenders,Finance,"<p>All tenders and awards of the nation
 <li>Award description</li>
 <li>value of the award</li>
 <li>suppliers name</li>
-</ul>",None,4,44,11,0,11,0
+</ul>",None,4,43,11,0,11,0
 spending,Government Spending,Finance,"<p>Records of actual (past) national government spending at a detailed transactional level; A database of contracts awarded or similar will <em>not</em> considered sufficient. This data category refers to detailed ongoing data on <em>actual</em> expenditure. Data submitted in this category should meet the following minimum criteria:</p>
 <ul>
 <li>Individual record of transactions.</li>

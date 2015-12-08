@@ -15,7 +15,7 @@ emissions,Pollutant Emissions,Environment,"<p>Aggregate data about the emission 
 <li>Carbon monoxide (CO)</li>
 <li>Updated on at least once a week.</li>
 <li>Measured either at a national level by regions or at leasts in 3 big cities.</li>
-</ul>",None,8,29,6,41,6,44
+</ul>",None,8,30,6,41,6,44
 water,Water Quality,Environment,"<p>Data, measured at the water source, on the quality of water is essential for both the delivery of services and the prevention of diseases. In order to satisfy the minimum requirements for this category, data should be available on level of the following chemicals by water source and be updated at least weekly:</p>
 <ul>
 <li>fecal coliform</li>
@@ -23,4 +23,4 @@ water,Water Quality,Environment,"<p>Data, measured at the water source, on the q
 <li>fluoride levels</li>
 <li>nitrates</li>
 <li>TDS (Total dissolved solids)</li>
-</ul>",None,11,20,11,0,11,0
+</ul>",None,11,18,11,0,11,0

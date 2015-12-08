@@ -119,17 +119,17 @@
     <div class="row">
         <div class="col-md-6">
             <h1>
-                <a href="/dataset/weather/" title="See more data on Weather forecast in the Open Data Index">Weather forecast</a>                <span class="place-openness" data-score="90">90% open</span>
+                <a href="/dataset/weather/" title="See more data on Weather forecast in the Open Data Index">Weather forecast</a>                <span class="place-openness" data-score="100">100% open</span>
             </h1>
             <h3>
                 <a href="/place/norway/" title="See more data on Norway in the Open Data Index">Norway</a>
                 <div class="open-badge"><img src="http://assets.okfn.org/images/ok_buttons/od_80x15_blue.png" /></div>
             </h3>
-            <div class="col-md-12 place-rank statistics">
-                    <span class="">Norway is ranked #6 for this dataset</span>
+            <!--div class="col-md-12 place-rank statistics">
+                    <span class="">Norway is ranked #1 for this dataset</span>
             </div>
             <div class="row relative">
-            </div>
+            </div-->
             <div class="row navigate">
                 <div class="col-md-12">
                     <h4 class="inline">See other years</h4>
@@ -251,11 +251,11 @@
                     <i class="fa fa-keyboard-o pointer" title="Click for more information"></i>&nbsp;
                     Is the data machine readable? Yes                     (XML)
                 </li>
-                <li class="maybe" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
+                <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Available in bulk? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is available in bulk if the whole dataset can be downloaded easily. It is considered non-bulk if the citizens are limited to getting parts of the dataset through an online interface.&lt;/p&gt;
 
 &lt;p&gt;For example, if restricted to querying a web form and retrieving a few results at a time from a very large database.&lt;/p&gt;" data-placement="right">
                     <i class="fa fa-copy pointer" title="Click for more information"></i>&nbsp;
-                    Available in bulk? Unsure                </li>
+                    Available in bulk? Yes                </li>
                 <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data provided on a timely and up to date basis? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Is the data current for the census year? You can determine or estimate when the data was last updated and its update frequency by reviewing:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -287,13 +287,13 @@
 &lt;li&gt;It can only be accessed by government officials.&lt;/li&gt;
 &lt;/ul&gt;" data-placement="right">
                     <i class="fa fa-eye pointer" title="Click for more information"></i>&nbsp;
-                    Publicly available? Yes(as Yr.no provides free weather data and is a service provided by NRK (http://www.nrk.no/) and the Norwegian Meteorological Institute (http://met.no/English/) published by Yr</a>)                </li>
+                    Publicly available? Yes(as Met.no provides free weather data through APIs and services. Forecasts are also available via yr.no - a joint service with NRK - the norwegian national brodcasting corportation (http://www.nrk.no/) published by Norwegian Meteorological Institute (met.no)</a>)                </li>
                 <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is data in digital form? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data can be in a digital format, but not accessible online. For example: A country budget can be stored on a spreadsheet or otherwise on a private government network, but not on the Internet. This means that the data is digital, but not publicly available. If you know that the data is digital somewhere inside the government (e.g. a government official tells you so), then you should answer “YES” to this question and note in the comment section how you discovered the data is in digital form.&lt;/p&gt;" data-placement="right">
                     <i class="fa fa-save pointer" title="Click for more information"></i>&nbsp;
                     Is data in digital form? Yes                </li>
                 <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Is the data available online? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data is online if it can be accessed via the Internet (e.g. a website or open data portal). If the data has been emailed to you but is not accessible via the Internet, it is not considered to be available online.&lt;/p&gt;" data-placement="right">
                     <i class="fa fa-download pointer" title="Click for more information"></i>&nbsp;
-                    Is the data available online? Yes (<a href="http://www.yr.no/stad/Noreg/Telemark/Sauherad/Gvarv/varsel.xml">Here</a>)                </li>
+                    Is the data available online? Yes (<a href="http://www.met.no/?module=Articles;action=Article.publicShow;ID=620">Here</a>)                </li>
                 <li class="yes" data-toggle="popover" title="&lt;h4&gt;&lt;p&gt;Does the data exist? &lt;/p&gt;&lt;/h4&gt;" data-content="&lt;p&gt;Data must come from an official resource either issued directly by the government or by a third party officially representing the government. Data offered by companies, citizen initiatives or any non-governmental organisation do not count for the Index.&lt;/p&gt;
 
 &lt;p&gt;If the government has given the right to publish the data to third parties, a submission with a link a to third party site is allowed. The third-party site must explicitly state that the data has been commissioned by the government. Check if the organization has an agreement with the government to be the official source and make a note in the comment section.&lt;/p&gt;" data-placement="right">
@@ -304,9 +304,15 @@
         <div class="col-md-6">
             <h4><strong>Details</strong></h4>
             <p>Qa review- 
-The license indicates that there is data in a machine readable format. I found the data in XML format and changed the submission.</p>
+The license indicates that there is data in a machine readable format. I found the data in XML format and changed the submission. </p>
+<p>Submission 2015-11-23:
+- Changed publisher to the meteorological institute, in stead of yr.no, which re-use their data.
+- Changed bulk-download from "Unsure" to "Yes".
+- Changed link to data to point to the Norwegian Meteorological Institute's web page about open data. From that page, there's links to api.met.no and yr.no for weather forecasts and to other services for bulk-downloads and historical data.</p>
+<p>See previous comment for more details:
+<a href="http://global.census.okfn.org/submission/b136b239-d962-437f-9bb9-69de95a2296a#comments">http://global.census.okfn.org/submission/b136b239-d962-437f-9bb9-69de95a2296a#comments</a></p>
             <h4><strong>Reviewer comments</strong></h4>
-            <p>This submission is accepted as the dataset contains 5+ days of forecast data for temperature, wind, and precipitation.</p>
+            <p>Data is available in bulk. Submission accepted.</p>
         </div>
     </div>
 </section>
@@ -317,13 +323,13 @@ The license indicates that there is data in a machine readable format. I found t
     <div class="col-md-6">
       <h4>Reviewers</h4>
       <ul>
-          <li>Neal Bastek</li>
+          <li>Mor Rubinstein</li>
       </ul>
   </div>
   <div class="col-md-6">
       <h4>Submitters</h4>
       <ul>
-          <li>Mor Rubinstein</li>
+          <li>Bergheimivar L</li>
       </ul>
   </div>
 </div>
